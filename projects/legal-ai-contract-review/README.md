@@ -128,6 +128,22 @@ To run the first CUAD sample:
 python src/contract_review.py --contract data/cuad_samples/ABILITYINC_06_15_2020-EX-4.25-SERVICES_AGREEMENT.txt --output-dir outputs/cuad_ability_services_agreement
 ```
 
+To evaluate the CUAD sample against the extracted answer key:
+
+```bash
+python src/evaluate_review.py
+```
+
+The evaluation report is saved to:
+
+- `outputs/cuad_ability_services_agreement/evaluation_report.md`
+
+Current scored result:
+
+```text
+Scored clauses passed: 3 of 3
+```
+
 ## Portfolio Story
 
 This project shows how I can take a legal operations job description and turn it into a working AI/data workflow. It combines technical implementation with requirements analysis, evaluation, documentation, and a practical understanding of how legal teams might adopt new tools.

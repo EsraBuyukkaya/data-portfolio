@@ -1,0 +1,42 @@
+{
+  "contract_filename": "ABILITYINC_06_15_2020-EX-4.25-SERVICES AGREEMENT.PDF",
+  "source_dataset": "CUAD v1 master_clauses.csv",
+  "source_url": "https://huggingface.co/datasets/theatticusproject/cuad/raw/main/CUAD_v1/master_clauses.csv",
+  "labels": [
+    {
+      "project_clause_type": "Governing Law",
+      "cuad_column": "Governing Law",
+      "expected_status": "Found",
+      "expected_answer": "Israel",
+      "expected_text_excerpt": "shall be governed by and construed in accordance with the domestic laws of the State of Israel"
+    },
+    {
+      "project_clause_type": "Termination",
+      "cuad_column": "Termination For Convenience",
+      "expected_status": "Found",
+      "expected_answer": "Yes",
+      "expected_text_excerpt": "terminate this Agreement in whole or in part, at any time without cause"
+    },
+    {
+      "project_clause_type": "Limitation of Liability",
+      "cuad_column": "Cap On Liability / Uncapped Liability",
+      "expected_status": "Missing",
+      "expected_answer": "No",
+      "expected_text_excerpt": ""
+    },
+    {
+      "project_clause_type": "Confidentiality",
+      "cuad_column": null,
+      "expected_status": "Not Scored",
+      "expected_answer": "CUAD does not include a general Confidentiality category in the master label columns.",
+      "expected_text_excerpt": ""
+    },
+    {
+      "project_clause_type": "Indemnification",
+      "cuad_column": null,
+      "expected_status": "Not Scored",
+      "expected_answer": "CUAD does not include a general Indemnification category in the master label columns.",
+      "expected_text_excerpt": ""
+    }
+  ]
+}
