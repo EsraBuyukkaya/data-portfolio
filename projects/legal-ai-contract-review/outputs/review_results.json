@@ -1,0 +1,32 @@
+[
+  {
+    "clause_type": "Governing Law",
+    "status": "Found",
+    "extracted_text": "7. Governing Law\nThis agreement will be governed by and interpreted under the laws of the State of New York, without regard to conflict of law principles.",
+    "review_note": "Clause detected. Review the extracted text for business and legal accuracy."
+  },
+  {
+    "clause_type": "Termination",
+    "status": "Found",
+    "extracted_text": "4. Term and Termination\nThis agreement begins on January 1, 2026 and continues for six months unless terminated earlier. Either party may terminate this agreement with thirty days' written notice. The client may terminate immediately if the provider materially breaches this agreement and does not cure the breach within ten business days after receiving written notice.",
+    "review_note": "Clause detected. Review the extracted text for business and legal accuracy."
+  },
+  {
+    "clause_type": "Confidentiality",
+    "status": "Found",
+    "extracted_text": "3. Confidentiality\nEach party agrees to protect confidential information received from the other party. Confidential information may include business plans, pricing, customer lists, technical materials, and internal process documents. The receiving party may not disclose confidential information to third parties except as required to perform the services or as required by law.",
+    "review_note": "Clause detected. Review the extracted text for business and legal accuracy."
+  },
+  {
+    "clause_type": "Indemnification",
+    "status": "Found",
+    "extracted_text": "6. Indemnification\nThe provider agrees to indemnify and hold harmless the client from third-party claims arising from the provider's gross negligence, willful misconduct, or violation of applicable law. The client agrees to indemnify the provider from claims arising from materials, instructions, or data supplied by the client.",
+    "review_note": "Clause detected. Review the extracted text for business and legal accuracy."
+  },
+  {
+    "clause_type": "Limitation of Liability",
+    "status": "Missing",
+    "extracted_text": "",
+    "review_note": "Clause was not detected in this baseline review. A legal reviewer should confirm whether it is missing or written under a different heading."
+  }
+]

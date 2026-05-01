@@ -46,6 +46,22 @@ Possible later data source:
 
 - SEC EDGAR contract exhibits for additional real-world public contracts
 
+## Dataset Notes
+
+For this project, I chose the CUAD dataset from The Atticus Project because it is a public legal contract dataset designed for contract review tasks.
+
+CUAD includes 510 commercial legal contracts, more than 13,000 expert-created clause labels, and 41 clause categories. The dataset includes full contract text files, PDFs, a master clauses CSV, and a SQuAD-style JSON file.
+
+For the first version of this project, I am limiting the scope to five clause types:
+
+- Governing Law
+- Termination
+- Confidentiality
+- Indemnification
+- Limitation of Liability
+
+This keeps the project focused and easier to evaluate before expanding to more clause categories.
+
 ## Planned Features
 
 | Feature | Description | Status |
@@ -86,6 +102,19 @@ Detected Clauses:
 Plain-English Summary:
 This agreement includes confidentiality obligations, a termination section, and a governing law clause. The limitation of liability clause was not detected and should be reviewed by a legal professional.
 ```
+
+## How to Run V1
+
+From this project folder, run:
+
+```bash
+python src/contract_review.py
+```
+
+The script reviews the sample contract in `data/sample_contracts/` and saves two outputs:
+
+- `outputs/review_report.md`
+- `outputs/review_results.json`
 
 ## Portfolio Story
 
