@@ -95,11 +95,18 @@ def parse_args() -> argparse.Namespace:
     return parser.parse_args()
 
 
+def print_summary(evaluation_rows: list[dict[str, str]]) -> None:
+    scored_rows = [row for row in evaluation_rows if row["evaluation"] != "Not Scored"]
+    passing_rows = [row for row in scored_rows if row["evaluation"] == "Pass"]
+    print(f"Scored clauses passed: {len(passing_rows)} of {len(scored_rows)}")
+
+
 def main() -> None:
     args = parse_args()
     evaluation_rows = evaluate(args.expected, args.results)
     args.output.parent.mkdir(parents=True, exist_ok=True)
     args.output.write_text(render_markdown(evaluation_rows), encoding="utf-8")
+    print_summary(evaluation_rows)
     print(f"Saved evaluation report to {args.output}")
 
 

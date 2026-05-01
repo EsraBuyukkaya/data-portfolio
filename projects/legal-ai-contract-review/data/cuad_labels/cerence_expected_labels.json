@@ -1,0 +1,42 @@
+{
+  "contract_filename": "CerenceInc_20191002_8-K_EX-10.4_11827494_EX-10.4_Intellectual Property Agreement.pdf",
+  "source_dataset": "CUAD v1 master_clauses.csv",
+  "source_url": "https://huggingface.co/datasets/theatticusproject/cuad/raw/main/CUAD_v1/master_clauses.csv",
+  "labels": [
+    {
+      "project_clause_type": "Governing Law",
+      "cuad_column": "Governing Law",
+      "expected_status": "Found",
+      "expected_answer": "Delaware",
+      "expected_text_excerpt": "['Any disputes relating to, arising out of or resulting from this Agreement, including to its execution, performance, or enforcement, shall be governed by, and construed in accordance with, the Laws of the State of Delaw"
+    },
+    {
+      "project_clause_type": "Termination",
+      "cuad_column": "Termination For Convenience",
+      "expected_status": "Found",
+      "expected_answer": "Yes",
+      "expected_text_excerpt": "['This Agreement may be terminated by Nuance at any time, in its sole discretion, prior to the Distribution; provided, however, that this Agreement shall automatically terminate upon the termination of the Separation Agr"
+    },
+    {
+      "project_clause_type": "Limitation of Liability",
+      "cuad_column": "Cap On Liability / Uncapped Liability",
+      "expected_status": "Found",
+      "expected_answer": "Cap On Liability: Yes; Uncapped Liability: No",
+      "expected_text_excerpt": "[\"Without limiting the terms set forth in Section 6.09 of the Separation Agreement, none of Nuance, SpinCo or any other member of either Group shall in any event have any Liability to the other or to any other member of "
+    },
+    {
+      "project_clause_type": "Confidentiality",
+      "cuad_column": null,
+      "expected_status": "Not Scored",
+      "expected_answer": "CUAD does not include a general Confidentiality category in the master label columns.",
+      "expected_text_excerpt": ""
+    },
+    {
+      "project_clause_type": "Indemnification",
+      "cuad_column": null,
+      "expected_status": "Not Scored",
+      "expected_answer": "CUAD does not include a general Indemnification category in the master label columns.",
+      "expected_text_excerpt": ""
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "contract_filename": "ConformisInc_20191101_10-Q_EX-10.6_11861402_EX-10.6_Development Agreement.pdf",
+  "source_dataset": "CUAD v1 master_clauses.csv",
+  "source_url": "https://huggingface.co/datasets/theatticusproject/cuad/raw/main/CUAD_v1/master_clauses.csv",
+  "labels": [
+    {
+      "project_clause_type": "Governing Law",
+      "cuad_column": "Governing Law",
+      "expected_status": "Found",
+      "expected_answer": "New York",
+      "expected_text_excerpt": "['This Agreement shall be governed and construed in accordance with the laws of New York State   (without regard to the conflict of laws provisions thereof).']"
+    },
+    {
+      "project_clause_type": "Termination",
+      "cuad_column": "Termination For Convenience",
+      "expected_status": "Missing",
+      "expected_answer": "No",
+      "expected_text_excerpt": "[]"
+    },
+    {
+      "project_clause_type": "Limitation of Liability",
+      "cuad_column": "Cap On Liability / Uncapped Liability",
+      "expected_status": "Found",
+      "expected_answer": "Cap On Liability: Yes; Uncapped Liability: Yes",
+      "expected_text_excerpt": "[\"Notwithstanding   anything to the contrary, Stryker's sole remedy and Conformis' exclusive liability for breach of Section 3.2 with respect to a   Product or a Stryker Product shall be as set forth in Section 10.1(i) o"
+    },
+    {
+      "project_clause_type": "Confidentiality",
+      "cuad_column": null,
+      "expected_status": "Not Scored",
+      "expected_answer": "CUAD does not include a general Confidentiality category in the master label columns.",
+      "expected_text_excerpt": ""
+    },
+    {
+      "project_clause_type": "Indemnification",
+      "cuad_column": null,
+      "expected_status": "Not Scored",
+      "expected_answer": "CUAD does not include a general Indemnification category in the master label columns.",
+      "expected_text_excerpt": ""
+    }
+  ]
+}
