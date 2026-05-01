@@ -1,1 +1,3 @@
 data/cuad_labels/master_clauses.csv
+__pycache__/
+*.pyc
