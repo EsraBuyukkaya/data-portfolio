@@ -59,7 +59,51 @@ def split_sections(contract_text: str) -> list[str]:
     return sections
 
 
+def get_heading(section: str) -> str:
+    return section.splitlines()[0].strip() if section.strip() else ""
+
+
+def find_matching_subsection(section: str, patterns: list[str]) -> str | None:
+    subsection_matches = list(re.finditer(r"(?m)^\d+\.\d+\s+.+$", section))
+    if not subsection_matches:
+        return None
+
+    subsections = []
+    for index, match in enumerate(subsection_matches):
+        start = match.start()
+        end = subsection_matches[index + 1].start() if index + 1 < len(subsection_matches) else len(section)
+        subsections.append(section[start:end].strip())
+
+    for subsection in subsections:
+        heading = get_heading(subsection).lower()
+        if any(re.search(pattern, heading) for pattern in patterns):
+            return subsection
+
+    return None
+
+
 def find_clause(clause_type: str, patterns: list[str], sections: list[str]) -> ClauseResult:
+    for section in sections:
+        heading = get_heading(section).lower()
+        if any(re.search(pattern, heading) for pattern in patterns):
+            matching_subsection = find_matching_subsection(section, patterns)
+            return ClauseResult(
+                clause_type=clause_type,
+                status="Found",
+                extracted_text=matching_subsection or section,
+                review_note="Clause detected. Review the extracted text for business and legal accuracy.",
+            )
+
+    for section in sections:
+        matching_subsection = find_matching_subsection(section, patterns)
+        if matching_subsection:
+            return ClauseResult(
+                clause_type=clause_type,
+                status="Found",
+                extracted_text=matching_subsection,
+                review_note="Clause detected. Review the extracted text for business and legal accuracy.",
+            )
+
     for section in sections:
         section_lower = section.lower()
         if any(re.search(pattern, section_lower) for pattern in patterns):
@@ -67,7 +111,7 @@ def find_clause(clause_type: str, patterns: list[str], sections: list[str]) -> C
                 clause_type=clause_type,
                 status="Found",
                 extracted_text=section,
-                review_note="Clause detected. Review the extracted text for business and legal accuracy.",
+                review_note="Clause detected by keyword search. Review carefully because the keyword may appear outside the main clause heading.",
             )
 
     return ClauseResult(

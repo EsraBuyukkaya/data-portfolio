@@ -62,6 +62,12 @@ For the first version of this project, I am limiting the scope to five clause ty
 
 This keeps the project focused and easier to evaluate before expanding to more clause categories.
 
+The first real CUAD sample added to this project is:
+
+- `ABILITYINC_06_15_2020-EX-4.25-SERVICES_AGREEMENT.txt`
+
+This sample helped improve the first rule-based extractor. The initial baseline detected the correct clause categories, but one result showed why legal text needs careful validation: a keyword search can match a clause mention inside the wrong section. I updated the extractor to prefer clause headings before searching the full body text.
+
 ## Planned Features
 
 | Feature | Description | Status |
@@ -115,6 +121,12 @@ The script reviews the sample contract in `data/sample_contracts/` and saves two
 
 - `outputs/review_report.md`
 - `outputs/review_results.json`
+
+To run the first CUAD sample:
+
+```bash
+python src/contract_review.py --contract data/cuad_samples/ABILITYINC_06_15_2020-EX-4.25-SERVICES_AGREEMENT.txt --output-dir outputs/cuad_ability_services_agreement
+```
 
 ## Portfolio Story
 
