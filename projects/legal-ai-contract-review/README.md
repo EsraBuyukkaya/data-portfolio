@@ -8,6 +8,8 @@ This project is the outcome of that scenario: a free, local contract review prot
 
 Full case study: [CASE_STUDY.md](CASE_STUDY.md)
 
+Interview preparation notes: [INTERVIEW_QA.md](INTERVIEW_QA.md)
+
 ## Project Goal
 
 This project started from a legal innovation job description. I wanted to understand what "AI-powered contract review" actually means, then build a small working version using free public data.
