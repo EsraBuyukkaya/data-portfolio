@@ -18,7 +18,8 @@ Instead of only following tutorials, I use each project to practice turning requ
 
 | Project | Category | Status | Skills Demonstrated |
 |---|---|---|---|
-| [Legal AI Contract Review Assistant](projects/legal-ai-contract-review/README.md) | Legal Tech / AI | Planning | Contract review, clause extraction, summarization, requirements mapping, evaluation design |
+| [Legal AI Contract Review Assistant](projects/legal-ai-contract-review/README.md) | Legal Tech / AI | Complete | Contract review, clause extraction, summarization, requirements mapping, evaluation design |
+| [Mobile Food Vendor Compliance Assistant](projects/mobile-food-vendor-compliance/README.md) | AI / Data / Compliance Analytics | Complete | Public data ingestion, NLP rule extraction, predictive modeling, RAG, Streamlit, technical reporting |
 
 ## How This Portfolio Is Built
 
