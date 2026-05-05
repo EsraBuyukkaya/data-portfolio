@@ -175,6 +175,16 @@ streamlit run src/app.py
 
 The app lets a reviewer select a sample contract, view clause status counts, inspect extracted clauses, and see the JSON output.
 
+## Demo Screenshots
+
+### Review Workflow
+
+![Streamlit review workflow](assets/screenshots/streamlit-review-app.png)
+
+### CUAD Evaluation
+
+![Streamlit CUAD evaluation](assets/screenshots/streamlit-evaluation.png)
+
 ## Portfolio Story
 
 This project shows how I can take a legal operations job description and turn it into a working AI/data workflow. It combines technical implementation with requirements analysis, evaluation, documentation, and a practical understanding of how legal teams might adopt new tools.
