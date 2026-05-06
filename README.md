@@ -1,30 +1,64 @@
 # Esra Buyukkaya | AI, Data, and Automation Portfolio
 
-Welcome to my portfolio. I am building this around real job descriptions, business problems, and client-style project ideas so I can show the skills companies are actually asking for.
+Hello, I'm Esra. I am building a job-description-based portfolio focused on practical AI, data analysis, automation, compliance workflows, and business problem solving.
 
-Instead of only following tutorials, I use each project to practice turning requirements into practical tools, dashboards, workflows, and AI-assisted systems.
+My background is in AI Management, and I use this portfolio to show how I can translate business needs into working projects, dashboards, reports, and AI-assisted workflows.
 
-## Portfolio Focus
+## About This Portfolio
 
-| Area | What I am building |
-|---|---|
-| AI & Automation | AI assistants, document workflows, classification tools, prompt systems, and practical process automation |
-| Data Analytics | SQL/Python analysis, dashboards, reporting, and business insights |
-| Legal Tech | Contract review, clause extraction, legal document summarization, RAG, and matter intake workflows |
-| Business Workflow Tools | Client-ready tools for operations, admin work, intake, tracking, and reporting |
-| Freelance Projects | Practical Upwork-style projects that solve clear business problems |
+This portfolio is organized around real workplace scenarios. For each project, I start with a business or job-description need, identify the skills being requested, and build a practical project that demonstrates the workflow.
+
+I am especially interested in roles that combine:
+
+- AI project coordination and AI workflow design
+- Data analysis and reporting
+- SQL, Python, Tableau, and Power BI
+- Compliance, operations, and business process improvement
+- Client-ready tools and automation
 
 ## Featured Projects
 
-| Project | Category | Status | Skills Demonstrated |
+| Project | Scenario | Tools / Skills | Portfolio Evidence |
 |---|---|---|---|
-| [Legal AI Contract Review Assistant](projects/legal-ai-contract-review/README.md) | Legal Tech / AI | Complete | Contract review, clause extraction, summarization, requirements mapping, evaluation design |
-| [Mobile Food Vendor Compliance Assistant](projects/mobile-food-vendor-compliance/README.md) | AI / Data / Compliance Analytics | Complete | Public data ingestion, NLP rule extraction, predictive modeling, RAG, Streamlit, technical reporting |
+| [Legal AI Contract Review Assistant](projects/legal-ai-contract-review/README.md) | A legal operations team wants to test whether AI-assisted contract review can extract key clauses and validate results against expert-labeled public data. | Python, Streamlit, CUAD dataset, rule-based extraction, JSON, evaluation reports | [Case Study](projects/legal-ai-contract-review/CASE_STUDY.md), [Interview Q&A](projects/legal-ai-contract-review/INTERVIEW_QA.md), screenshots, evaluation results |
+| [Mobile Food Vendor Compliance Assistant](projects/mobile-food-vendor-compliance/README.md) | A compliance consulting team wants to help mobile food vendors understand permit requirements, inspection risk, and food-safety rules. | Python, Streamlit, public data ingestion, NLP rule extraction, predictive modeling, RAG, technical reporting | [Case Study](projects/mobile-food-vendor-compliance/CASE_STUDY.md), [Interview Q&A](projects/mobile-food-vendor-compliance/INTERVIEW_QA.md), technical report, screenshots |
 
-## How This Portfolio Is Built
+## Tools And Skills
 
-For each project, I start from a real job description or client need, identify the skills being requested, and build a small but practical version of that workflow. The goal is to show technical ability, product thinking, documentation, testing, and clear communication.
+| Area | Tools / Concepts |
+|---|---|
+| Programming | Python |
+| Data Analysis | pandas, data cleaning, feature engineering, model evaluation |
+| AI / NLP | rule extraction, retrieval-based Q&A, RAG concepts, prompt/workflow design |
+| Apps | Streamlit |
+| Documentation | README files, case studies, interview Q&A, technical reports |
+| Version Control | Git, GitHub |
+| Upcoming Portfolio Additions | SQL, Tableau, Power BI |
 
-## Current Priority
+## Project Method
 
-The first project is a legal AI tool for contract review and clause extraction. It started from a legal innovation job description, and I am using it to understand what AI-powered contract review looks like in practice.
+Each project follows the same structure:
+
+1. Scenario
+2. Problem
+3. Dataset or inputs
+4. Project outcome
+5. Tools used
+6. Evaluation
+7. Limitations
+8. What I would improve next
+
+## Next Portfolio Projects
+
+These are planned next so the portfolio covers more of the skills listed in data analyst, AI analyst, and business analyst job descriptions:
+
+| Planned Project | Skills To Demonstrate |
+|---|---|
+| SQL Business Case Study | joins, aggregations, CTEs, business questions, KPI reporting |
+| Tableau Dashboard | dashboard design, filters, calculated fields, visual storytelling |
+| Power BI Operations Dashboard | Power Query, DAX basics, KPI cards, slicers, executive summary |
+| Customer Support Ticket Analysis | text classification, dashboarding, operational insights |
+
+## How To Read This Portfolio
+
+The projects are not meant to be perfect production systems. They are practical portfolio projects that show how I think through a business problem, choose data, build a working prototype, evaluate results, and explain the outcome clearly.
