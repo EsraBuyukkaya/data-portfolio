@@ -108,6 +108,20 @@ The submitted technical report is included here:
 
 [Mobile Food Vendor Compliance Report](assets/reports/Mobile_Food_Vendor_Compliance_Report.pdf)
 
+## Demo Screenshots
+
+### Compliance Assistant
+
+![Mobile food vendor compliance assistant](assets/screenshots/mobile-vendor-app-overview.png)
+
+### Model Performance
+
+![Mobile vendor model performance](assets/screenshots/mobile-vendor-model-info.png)
+
+### Confusion Matrix
+
+![Mobile vendor confusion matrix](assets/screenshots/mobile-vendor-confusion-matrix.png)
+
 ## How To Run
 
 Install requirements:
