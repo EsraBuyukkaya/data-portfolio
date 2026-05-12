@@ -1,3 +1,5 @@
+![Esra Buyukkaya Banner](assets/esra-buyukkaya-banner.png)
+
 # Esra Buyukkaya | AI, Data, and Automation Portfolio
 
 Hello, I'm Esra. I am building a job-description-based portfolio focused on practical AI, data analysis, automation, compliance workflows, and business problem solving.
