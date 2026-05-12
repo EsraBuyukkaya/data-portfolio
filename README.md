@@ -55,7 +55,6 @@ These are planned next so the portfolio covers more of the skills listed in data
 
 | Planned Project | Skills To Demonstrate |
 |---|---|
-| SQL Business Case Study | joins, aggregations, CTEs, business questions, KPI reporting |
 | Tableau Dashboard | dashboard design, filters, calculated fields, visual storytelling |
 | Power BI Operations Dashboard | Power Query, DAX basics, KPI cards, slicers, executive summary |
 | Customer Support Ticket Analysis | text classification, dashboarding, operational insights |
