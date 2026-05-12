@@ -2,7 +2,7 @@
 
 # Hello, I'm Esra
 
-AI Management graduate building a portfolio in data analytics, AI operations, automation, and business workflow tools.
+AI and data professional with 5 years of experience in data analytics, reporting, business workflow improvement, and AI-assisted solutions.
 
 I am developing hands-on projects that show how I can turn business problems into practical tools, reports, dashboards, and AI-assisted workflows.
 

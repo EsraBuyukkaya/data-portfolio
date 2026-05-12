@@ -4,7 +4,7 @@
 
 Hello, I'm Esra. I am building a job-description-based portfolio focused on practical AI, data analysis, automation, compliance workflows, and business problem solving.
 
-My background is in AI Management, and I use this portfolio to show how I can translate business needs into working projects, dashboards, reports, and AI-assisted workflows.
+I am an AI and data professional with 5 years of experience in data analytics, reporting, business workflow improvement, and AI-assisted solutions. I use this portfolio to show how I can translate business needs into working projects, dashboards, reports, and AI-assisted workflows.
 
 ## About This Portfolio
 
