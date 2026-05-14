@@ -44,12 +44,18 @@ launch_overview = query(
     SELECT
       COUNT(DISTINCT c.customer_id) AS customers,
       SUM(CASE WHEN l.launch_status = 'At Risk' THEN 1 ELSE 0 END) AS at_risk_launches,
-      ROUND(AVG(l.readiness_score), 1) AS avg_readiness,
+      ROUND(AVG(l.readiness_score), 1) AS avg_readiness
+    FROM customers c
+    JOIN launches l ON l.customer_id = c.customer_id;
+    """
+).iloc[0]
+
+impact_overview = query(
+    """
+    SELECT
       ROUND(SUM(a.revenue_influenced), 0) AS revenue_influenced,
       ROUND(SUM(a.minutes_saved), 0) AS minutes_saved
-    FROM customers c
-    JOIN launches l ON l.customer_id = c.customer_id
-    JOIN agent_calls a ON a.customer_id = c.customer_id;
+    FROM agent_calls a;
     """
 ).iloc[0]
 
@@ -69,7 +75,7 @@ col1.metric("Real Contacts", f"{int(contact_overview['real_contacts']):,}")
 col2.metric("Conversion Rate", f"{contact_overview['conversion_rate'] * 100:.1f}%")
 col3.metric("Customers", f"{int(launch_overview['customers'])}")
 col4.metric("At-Risk Launches", f"{int(launch_overview['at_risk_launches'])}")
-col5.metric("Revenue Influenced", f"${int(launch_overview['revenue_influenced']):,}")
+col5.metric("Revenue Influenced", f"${int(impact_overview['revenue_influenced']):,}")
 
 tab1, tab2, tab3, tab4, tab5 = st.tabs(
     ["Real Outreach Data", "Launch Health", "Agent Performance", "Blockers & Roadmap", "Action Queue"]

@@ -16,7 +16,7 @@ This project started from a legal innovation job description. I wanted to unders
 
 The project is designed around roles that ask for support with AI-powered legal technologies, contract review, clause extraction, workflow automation, document summarization, user feedback, and evaluation.
 
-The goal is to build a practical tool that can review a contract, identify important clauses, summarize key terms, and track feedback so the workflow can improve over time.
+The goal is to build a practical tool that can review a contract, identify important clauses, summarize key terms, and define a feedback loop so the workflow can improve over time.
 
 ## Job Description Match
 
@@ -28,12 +28,12 @@ The goal is to build a practical tool that can review a contract, identify impor
 | AI workflow automation | Turns contract text into structured review output |
 | Testing and validation | Compares extracted clauses against expected examples from public datasets |
 | User feedback | Includes a plan for lawyer/paralegal ratings and comments |
-| Adoption metrics | Tracks review time, missing clauses, flagged risks, and usefulness ratings |
+| Adoption metrics | Defines metrics such as review time, missing clauses, flagged risks, and usefulness ratings |
 | Privacy and security awareness | Uses public sample contracts first and avoids confidential client documents |
 
-## MVP Scope
+## Current Scope
 
-The first version will focus on five clause types:
+The first version focuses on five clause types:
 
 1. Governing Law
 2. Termination
@@ -41,7 +41,7 @@ The first version will focus on five clause types:
 4. Indemnification
 5. Limitation of Liability
 
-The first version will use a small sample of public contracts so the project stays free and manageable.
+The first version uses a small sample of public contracts so the project stays free and manageable.
 
 ## Free Data Plan
 
