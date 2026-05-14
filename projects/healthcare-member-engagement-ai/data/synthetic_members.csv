@@ -1,0 +1,301 @@
+member_id,plan_type,age_band,phone_reliability,app_sessions_30d,renewal_due_days,support_tickets_30d,missed_appointment_90d,risk_score
+M0001,Medicare Advantage,50-64,medium,12,29,0,1,65
+M0002,Medicaid,35-49,low,9,44,0,0,32
+M0003,Medicaid,35-49,low,4,107,0,0,48
+M0004,Dual Eligible,50-64,high,12,41,0,1,35
+M0005,Medicaid,50-64,high,14,102,1,0,16
+M0006,Dual Eligible,50-64,medium,13,70,3,0,38
+M0007,Medicaid,35-49,high,6,116,0,0,18
+M0008,Medicare Advantage,65+,medium,4,113,1,0,42
+M0009,Medicaid,65+,medium,11,60,0,0,20
+M0010,Medicare Advantage,18-34,high,11,8,1,0,36
+M0011,Medicaid,18-34,medium,0,27,1,0,78
+M0012,Medicaid,50-64,low,7,113,0,0,36
+M0013,Medicaid,65+,medium,8,82,2,0,32
+M0014,Medicaid,65+,medium,5,19,0,1,77
+M0015,Medicaid,18-34,medium,3,103,1,0,46
+M0016,Medicaid,65+,low,19,99,0,0,32
+M0017,Dual Eligible,50-64,high,6,41,1,0,24
+M0018,Medicaid,35-49,high,5,101,1,0,28
+M0019,Medicare Advantage,50-64,medium,9,114,1,1,51
+M0020,Medicaid,65+,low,3,79,2,0,64
+M0021,Medicare Advantage,18-34,high,10,20,0,0,30
+M0022,Medicare Advantage,35-49,high,7,63,0,0,14
+M0023,Medicaid,50-64,high,11,107,0,0,10
+M0024,Medicare Advantage,18-34,high,6,78,3,0,36
+M0025,Medicaid,35-49,high,4,44,0,0,26
+M0026,Medicaid,65+,medium,13,42,2,0,32
+M0027,Medicaid,50-64,medium,0,12,0,0,72
+M0028,Medicaid,18-34,high,9,96,0,0,10
+M0029,Medicaid,35-49,high,12,112,0,0,10
+M0030,Medicare Advantage,50-64,high,4,76,4,0,50
+M0031,Medicare Advantage,50-64,high,10,30,3,0,48
+M0032,Medicaid,18-34,medium,7,114,0,0,24
+M0033,Dual Eligible,65+,high,11,53,1,0,16
+M0034,Medicare Advantage,65+,high,10,90,0,1,35
+M0035,Medicare Advantage,35-49,low,0,111,0,0,64
+M0036,Medicaid,35-49,medium,8,43,1,0,26
+M0037,Medicaid,65+,low,11,112,1,1,63
+M0038,Medicaid,35-49,medium,9,116,0,0,20
+M0039,Medicaid,35-49,medium,13,37,1,1,51
+M0040,Medicare Advantage,50-64,medium,5,107,2,0,44
+M0041,Medicaid,50-64,high,8,17,1,0,36
+M0042,Medicare Advantage,35-49,medium,5,87,0,0,32
+M0043,Medicaid,65+,high,6,114,0,0,18
+M0044,Medicaid,35-49,medium,9,70,2,0,32
+M0045,Medicare Advantage,18-34,medium,5,19,4,0,76
+M0046,Medicare Advantage,50-64,medium,6,14,0,1,73
+M0047,Medicaid,50-64,high,4,42,0,0,26
+M0048,Dual Eligible,18-34,high,4,33,0,0,26
+M0049,Medicaid,50-64,medium,15,46,0,0,20
+M0050,Medicaid,35-49,medium,7,4,0,0,44
+M0051,Medicare Advantage,50-64,high,7,15,0,1,59
+M0052,Medicaid,50-64,high,17,49,0,0,10
+M0053,Medicare Advantage,18-34,medium,4,40,1,1,67
+M0054,Medicaid,50-64,medium,8,23,3,0,58
+M0055,Medicaid,50-64,high,17,10,1,0,36
+M0056,Medicare Advantage,50-64,high,12,100,0,0,10
+M0057,Medicare Advantage,50-64,medium,7,90,2,0,36
+M0058,Medicaid,65+,low,11,80,0,0,32
+M0059,Medicaid,65+,medium,9,33,0,0,20
+M0060,Medicaid,50-64,low,6,48,0,0,40
+M0061,Medicaid,65+,high,8,54,1,0,16
+M0062,Medicaid,65+,medium,10,65,1,0,26
+M0063,Medicare Advantage,35-49,medium,14,24,2,1,77
+M0064,Medicaid,18-34,medium,8,64,0,0,20
+M0065,Medicaid,50-64,low,0,36,1,0,70
+M0066,Dual Eligible,35-49,low,23,5,1,0,58
+M0067,Medicare Advantage,50-64,high,8,91,3,0,28
+M0068,Medicaid,65+,high,11,10,0,0,30
+M0069,Medicare Advantage,50-64,medium,11,69,0,0,20
+M0070,Medicaid,35-49,medium,12,39,0,0,20
+M0071,Medicaid,35-49,low,0,116,0,0,64
+M0072,Medicaid,50-64,high,15,77,2,0,22
+M0073,Medicare Advantage,50-64,high,3,6,0,0,50
+M0074,Medicare Advantage,65+,high,8,43,1,0,16
+M0075,Medicaid,50-64,high,2,25,0,0,54
+M0076,Medicare Advantage,50-64,high,5,69,0,0,22
+M0077,Medicaid,65+,high,17,36,0,0,10
+M0078,Medicare Advantage,18-34,high,5,53,0,0,22
+M0079,Medicare Advantage,18-34,high,11,118,0,0,10
+M0080,Medicaid,50-64,medium,6,2,1,0,54
+M0081,Medicaid,50-64,low,6,2,0,0,60
+M0082,Medicare Advantage,50-64,medium,16,61,1,0,26
+M0083,Medicaid,65+,high,11,54,0,1,35
+M0084,Medicaid,50-64,low,9,58,2,0,44
+M0085,Dual Eligible,65+,low,8,104,1,0,38
+M0086,Medicare Advantage,50-64,medium,6,18,0,0,48
+M0087,Medicaid,35-49,high,5,68,0,0,22
+M0088,Medicare Advantage,18-34,low,5,109,0,0,44
+M0089,Medicaid,65+,medium,15,91,0,0,20
+M0090,Medicaid,50-64,high,5,30,0,0,42
+M0091,Medicare Advantage,18-34,medium,7,5,2,1,81
+M0092,Medicaid,65+,medium,7,53,0,0,24
+M0093,Medicare Advantage,65+,high,9,39,1,0,16
+M0094,Medicaid,65+,medium,16,73,0,1,45
+M0095,Medicare Advantage,35-49,medium,13,100,0,0,20
+M0096,Medicaid,18-34,high,7,40,0,0,14
+M0097,Medicaid,18-34,medium,0,32,1,1,83
+M0098,Medicaid,65+,medium,3,79,0,1,65
+M0099,Medicare Advantage,35-49,low,13,89,1,0,38
+M0100,Medicare Advantage,50-64,medium,8,10,0,0,40
+M0101,Medicaid,50-64,high,9,13,0,0,30
+M0102,Medicaid,50-64,high,6,27,0,0,38
+M0103,Medicaid,50-64,low,9,24,0,0,52
+M0104,Medicaid,35-49,low,14,68,3,0,50
+M0105,Medicaid,18-34,medium,0,120,4,0,76
+M0106,Medicaid,35-49,high,6,4,1,0,44
+M0107,Medicaid,65+,low,4,105,0,0,48
+M0108,Dual Eligible,50-64,high,10,91,0,0,10
+M0109,Medicaid,50-64,low,14,36,1,0,38
+M0110,Medicare Advantage,35-49,medium,12,108,0,1,45
+M0111,Medicare Advantage,18-34,high,11,10,0,0,30
+M0112,Medicaid,50-64,high,10,84,0,0,10
+M0113,Medicaid,35-49,medium,13,39,0,0,20
+M0114,Dual Eligible,35-49,high,3,34,0,0,30
+M0115,Medicaid,50-64,high,5,98,2,0,34
+M0116,Medicaid,35-49,low,14,67,0,0,32
+M0117,Dual Eligible,18-34,medium,18,32,0,0,20
+M0118,Medicaid,35-49,high,11,73,1,0,16
+M0119,Medicare Advantage,35-49,high,16,12,0,0,30
+M0120,Medicaid,35-49,high,8,99,1,0,16
+M0121,Dual Eligible,18-34,medium,13,7,1,0,46
+M0122,Medicaid,35-49,high,8,109,2,0,22
+M0123,Dual Eligible,50-64,low,6,50,0,1,65
+M0124,Medicaid,50-64,medium,9,36,0,0,20
+M0125,Medicaid,50-64,medium,6,104,2,0,40
+M0126,Dual Eligible,65+,medium,7,19,1,0,50
+M0127,Medicaid,50-64,medium,10,89,0,1,45
+M0128,Medicare Advantage,50-64,high,12,32,1,0,16
+M0129,Dual Eligible,65+,high,8,115,3,0,28
+M0130,Medicaid,65+,medium,2,20,0,1,89
+M0131,Medicaid,35-49,high,4,85,0,0,26
+M0132,Medicaid,18-34,high,12,70,0,0,10
+M0133,Medicaid,65+,high,7,106,1,0,20
+M0134,Dual Eligible,65+,medium,5,13,1,0,58
+M0135,Medicaid,35-49,low,7,96,0,0,36
+M0136,Medicaid,18-34,medium,12,95,0,0,20
+M0137,Dual Eligible,50-64,medium,9,48,0,0,20
+M0138,Medicaid,18-34,low,9,99,1,0,38
+M0139,Medicare Advantage,65+,medium,7,62,0,0,24
+M0140,Medicaid,18-34,high,16,95,0,0,10
+M0141,Medicaid,18-34,medium,5,43,0,0,32
+M0142,Dual Eligible,18-34,high,17,53,4,0,34
+M0143,Medicaid,50-64,low,9,3,1,0,58
+M0144,Medicaid,50-64,high,2,117,2,0,46
+M0145,Medicare Advantage,18-34,high,7,49,0,0,14
+M0146,Medicaid,50-64,medium,4,64,0,1,61
+M0147,Medicare Advantage,18-34,medium,16,86,0,0,20
+M0148,Medicaid,35-49,high,3,105,0,1,55
+M0149,Dual Eligible,50-64,medium,11,46,1,0,26
+M0150,Medicaid,65+,medium,13,83,0,0,20
+M0151,Medicaid,50-64,medium,3,96,1,1,71
+M0152,Medicaid,18-34,medium,21,61,1,0,26
+M0153,Dual Eligible,65+,medium,0,1,0,1,97
+M0154,Medicaid,65+,high,8,78,2,0,22
+M0155,Dual Eligible,50-64,medium,7,46,1,0,30
+M0156,Medicaid,50-64,high,11,97,0,0,10
+M0157,Medicare Advantage,50-64,high,15,57,2,0,22
+M0158,Medicare Advantage,50-64,medium,1,100,3,0,66
+M0159,Medicare Advantage,50-64,high,10,47,0,0,10
+M0160,Medicaid,18-34,medium,13,99,0,0,20
+M0161,Medicaid,18-34,low,8,59,1,1,63
+M0162,Medicaid,35-49,medium,6,90,2,0,40
+M0163,Medicaid,65+,high,10,6,0,0,30
+M0164,Dual Eligible,35-49,high,7,13,0,0,34
+M0165,Medicare Advantage,18-34,high,5,92,1,0,28
+M0166,Medicaid,18-34,medium,17,94,0,1,45
+M0167,Medicare Advantage,50-64,high,12,73,1,0,16
+M0168,Medicare Advantage,65+,medium,14,49,1,0,26
+M0169,Medicaid,65+,high,7,87,0,0,14
+M0170,Medicaid,65+,medium,11,106,0,1,45
+M0171,Medicare Advantage,18-34,low,5,78,0,0,44
+M0172,Medicare Advantage,65+,medium,0,102,1,0,58
+M0173,Medicare Advantage,50-64,high,8,67,0,1,35
+M0174,Medicaid,50-64,medium,8,62,0,0,20
+M0175,Medicaid,35-49,medium,7,34,0,1,49
+M0176,Medicaid,65+,medium,7,47,0,1,49
+M0177,Medicaid,65+,high,12,65,0,1,35
+M0178,Medicare Advantage,35-49,high,9,46,0,1,35
+M0179,Medicaid,65+,high,9,20,1,1,61
+M0180,Medicare Advantage,35-49,medium,15,65,0,0,20
+M0181,Medicaid,65+,high,7,110,0,0,14
+M0182,Medicaid,35-49,low,4,67,0,0,48
+M0183,Dual Eligible,65+,high,0,45,0,0,42
+M0184,Dual Eligible,50-64,high,5,37,0,0,22
+M0185,Medicare Advantage,65+,medium,0,100,2,0,64
+M0186,Medicaid,35-49,high,15,120,2,0,22
+M0187,Medicaid,50-64,low,2,59,1,0,62
+M0188,Medicaid,65+,medium,7,18,0,0,44
+M0189,Medicare Advantage,50-64,high,15,67,1,0,16
+M0190,Medicaid,65+,high,12,20,0,0,30
+M0191,Medicare Advantage,18-34,high,8,59,1,1,41
+M0192,Medicaid,65+,high,7,36,1,0,20
+M0193,Medicare Advantage,35-49,medium,11,72,1,0,26
+M0194,Medicaid,65+,high,11,38,2,0,22
+M0195,Medicaid,18-34,medium,20,23,2,1,77
+M0196,Medicaid,50-64,medium,12,10,3,0,58
+M0197,Medicaid,50-64,medium,18,71,4,0,44
+M0198,Medicare Advantage,35-49,medium,4,20,0,0,56
+M0199,Medicaid,65+,high,9,105,0,0,10
+M0200,Medicaid,35-49,medium,4,74,0,1,61
+M0201,Medicare Advantage,35-49,medium,0,68,0,1,77
+M0202,Medicare Advantage,65+,high,2,40,0,0,34
+M0203,Medicaid,35-49,medium,14,37,0,0,20
+M0204,Medicaid,35-49,medium,16,35,0,0,20
+M0205,Medicare Advantage,35-49,high,0,3,0,0,62
+M0206,Dual Eligible,50-64,high,9,18,0,0,30
+M0207,Medicaid,65+,low,9,73,2,0,44
+M0208,Medicaid,50-64,high,1,11,1,0,64
+M0209,Medicaid,18-34,high,8,96,1,0,16
+M0210,Medicaid,65+,medium,14,6,2,1,77
+M0211,Medicaid,35-49,high,14,115,1,0,16
+M0212,Medicaid,50-64,high,9,99,1,0,16
+M0213,Medicare Advantage,18-34,high,5,71,0,0,22
+M0214,Medicare Advantage,65+,high,6,37,1,0,24
+M0215,Medicare Advantage,65+,high,9,8,0,0,30
+M0216,Medicare Advantage,50-64,low,12,1,0,0,52
+M0217,Dual Eligible,50-64,medium,8,23,0,0,40
+M0218,Dual Eligible,35-49,high,8,118,2,0,22
+M0219,Medicaid,65+,high,15,100,0,1,35
+M0220,Medicare Advantage,18-34,medium,14,40,0,0,20
+M0221,Medicare Advantage,18-34,high,13,7,0,0,30
+M0222,Medicaid,35-49,high,5,83,1,0,28
+M0223,Medicare Advantage,35-49,high,5,66,0,0,22
+M0224,Medicaid,50-64,high,14,101,0,0,10
+M0225,Medicare Advantage,35-49,medium,5,79,1,1,63
+M0226,Medicaid,35-49,medium,10,46,0,0,20
+M0227,Medicaid,50-64,medium,15,85,0,0,20
+M0228,Medicaid,50-64,medium,17,15,1,0,46
+M0229,Medicare Advantage,50-64,high,16,94,1,0,16
+M0230,Dual Eligible,50-64,medium,5,111,0,0,32
+M0231,Medicaid,18-34,medium,19,30,0,0,40
+M0232,Medicaid,18-34,medium,5,24,0,1,77
+M0233,Medicaid,65+,medium,11,77,1,0,26
+M0234,Medicaid,65+,high,6,8,0,0,38
+M0235,Medicaid,50-64,medium,10,74,1,0,26
+M0236,Medicaid,65+,low,10,105,1,1,63
+M0237,Medicaid,18-34,medium,7,81,0,1,49
+M0238,Dual Eligible,18-34,low,10,69,0,0,32
+M0239,Medicaid,65+,high,0,29,0,0,62
+M0240,Medicaid,18-34,high,9,19,1,0,36
+M0241,Medicaid,35-49,medium,10,27,0,0,40
+M0242,Medicare Advantage,50-64,medium,1,27,0,1,93
+M0243,Medicare Advantage,50-64,low,6,7,3,1,100
+M0244,Medicaid,35-49,high,9,29,0,0,30
+M0245,Dual Eligible,65+,high,3,78,0,0,30
+M0246,Medicaid,50-64,high,17,29,2,0,42
+M0247,Medicaid,65+,medium,14,99,0,0,20
+M0248,Medicare Advantage,50-64,high,9,80,0,0,10
+M0249,Medicaid,50-64,medium,11,69,1,0,26
+M0250,Medicaid,50-64,medium,4,120,0,0,36
+M0251,Dual Eligible,50-64,medium,12,102,0,0,20
+M0252,Medicaid,50-64,medium,6,86,0,0,28
+M0253,Medicaid,50-64,medium,16,103,1,0,26
+M0254,Dual Eligible,65+,high,8,63,0,0,10
+M0255,Medicare Advantage,50-64,high,13,55,1,0,16
+M0256,Medicare Advantage,35-49,medium,0,107,1,0,58
+M0257,Medicare Advantage,35-49,medium,9,36,0,0,20
+M0258,Medicaid,50-64,high,11,82,2,0,22
+M0259,Medicaid,65+,high,4,117,0,0,26
+M0260,Medicaid,35-49,low,9,77,0,0,32
+M0261,Medicaid,35-49,high,10,8,0,0,30
+M0262,Medicaid,18-34,high,3,105,1,1,61
+M0263,Medicaid,35-49,high,6,30,0,0,38
+M0264,Medicare Advantage,18-34,low,11,29,1,0,58
+M0265,Medicare Advantage,50-64,low,15,93,0,0,32
+M0266,Medicaid,50-64,low,15,49,1,0,38
+M0267,Medicaid,35-49,medium,11,91,0,0,20
+M0268,Medicaid,65+,high,5,47,0,0,22
+M0269,Medicare Advantage,35-49,high,7,3,0,1,59
+M0270,Medicaid,35-49,medium,13,86,0,0,20
+M0271,Medicaid,35-49,medium,6,103,0,0,28
+M0272,Medicaid,18-34,medium,5,8,0,0,52
+M0273,Medicaid,50-64,high,17,40,0,0,10
+M0274,Dual Eligible,65+,medium,10,16,0,0,40
+M0275,Medicare Advantage,65+,high,1,15,0,0,58
+M0276,Medicaid,35-49,low,7,47,2,0,48
+M0277,Medicare Advantage,50-64,low,6,118,2,0,52
+M0278,Medicaid,65+,high,13,74,0,0,10
+M0279,Medicaid,50-64,high,2,30,2,0,66
+M0280,Dual Eligible,65+,medium,6,29,1,1,79
+M0281,Medicaid,35-49,high,9,83,0,1,35
+M0282,Medicaid,65+,medium,15,39,3,0,38
+M0283,Medicare Advantage,50-64,high,13,63,1,0,16
+M0284,Medicare Advantage,50-64,low,16,24,2,0,64
+M0285,Medicaid,50-64,high,6,6,1,0,44
+M0286,Medicaid,35-49,low,5,12,0,1,89
+M0287,Medicare Advantage,18-34,medium,1,104,0,1,73
+M0288,Medicaid,35-49,medium,12,20,4,0,64
+M0289,Medicaid,65+,medium,5,97,1,0,38
+M0290,Medicare Advantage,50-64,medium,16,52,2,0,32
+M0291,Medicaid,50-64,medium,7,22,2,0,56
+M0292,Medicare Advantage,65+,high,9,66,1,0,16
+M0293,Medicare Advantage,50-64,high,2,88,0,0,34
+M0294,Medicaid,18-34,medium,8,102,0,0,20
+M0295,Medicaid,50-64,low,10,99,2,0,44
+M0296,Medicare Advantage,35-49,medium,0,64,1,1,83
+M0297,Medicaid,65+,high,9,86,0,0,10
+M0298,Dual Eligible,18-34,high,4,8,0,1,71
+M0299,Medicaid,65+,high,10,101,1,0,16
+M0300,Medicare Advantage,65+,medium,15,34,0,0,20

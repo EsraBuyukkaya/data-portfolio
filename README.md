@@ -23,18 +23,20 @@ I am especially interested in roles that combine:
 |---|---|---|---|
 | [Legal AI Contract Review Assistant](projects/legal-ai-contract-review/README.md) | A legal operations team wants to test whether AI-assisted contract review can extract key clauses and validate results against expert-labeled public data. | Python, Streamlit, CUAD dataset, rule-based extraction, JSON, evaluation reports | [Case Study](projects/legal-ai-contract-review/CASE_STUDY.md), [Interview Q&A](projects/legal-ai-contract-review/INTERVIEW_QA.md), screenshots, evaluation results |
 | [Mobile Food Vendor Compliance Assistant](projects/mobile-food-vendor-compliance/README.md) | A compliance consulting team wants to help mobile food vendors understand permit requirements, inspection risk, and food-safety rules. | Python, Streamlit, public data ingestion, NLP rule extraction, predictive modeling, RAG, technical reporting | [Case Study](projects/mobile-food-vendor-compliance/CASE_STUDY.md), [Interview Q&A](projects/mobile-food-vendor-compliance/INTERVIEW_QA.md), technical report, screenshots |
+| [Healthcare Member Engagement AI Product Intelligence Hub](projects/healthcare-member-engagement-ai/README.md) | A healthcare mobile product team wants to identify at-risk members, monitor engagement, and recommend outreach actions before members miss care or renewal deadlines. | Python, SQLite, SQL, Streamlit, synthetic data, product analytics, AI workflow design | [Case Study](projects/healthcare-member-engagement-ai/CASE_STUDY.md), [Interview Q&A](projects/healthcare-member-engagement-ai/INTERVIEW_QA.md), build steps |
 
 ## Tools And Skills
 
 | Area | Tools / Concepts |
 |---|---|
 | Programming | Python |
-| Data Analysis | pandas, data cleaning, feature engineering, model evaluation |
+| Data Analysis | pandas, data cleaning, feature engineering, model evaluation, product metrics |
+| SQL / Databases | SQLite, joins, aggregations, window functions, local data modeling |
 | AI / NLP | rule extraction, retrieval-based Q&A, RAG concepts, prompt/workflow design |
 | Apps | Streamlit |
 | Documentation | README files, case studies, interview Q&A, technical reports |
 | Version Control | Git, GitHub |
-| Upcoming Portfolio Additions | SQL, Tableau, Power BI |
+| Upcoming Portfolio Additions | Tableau, Power BI |
 
 ## Project Method
 
