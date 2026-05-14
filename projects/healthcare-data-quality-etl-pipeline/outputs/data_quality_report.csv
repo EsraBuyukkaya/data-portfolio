@@ -1,7 +1,7 @@
-check_name,status,failed_rows,business_rule
-missing_patient_ids,Fail,1,Every patient record must have a patient_id.
-duplicate_patient_ids,Fail,1,Patient IDs should be unique.
-orphan_encounters,Fail,1,Every encounter must belong to a valid patient.
-invalid_encounter_dates,Fail,1,Encounter stop_date cannot be before start_date.
-orphan_observations,Fail,1,Every observation must belong to a valid encounter.
-out_of_range_observations,Fail,2,Vitals and labs should fall inside expected clinical bounds.
+check_name,status,failed_rows,business_rule,action_taken
+missing_patient_ids,Issue Found,1,Every patient record must have a patient_id.,Excluded from staging patient table.
+duplicate_patient_ids,Issue Found,1,Patient IDs should be unique.,Kept first record and excluded duplicate from staging.
+orphan_encounters,Issue Found,1,Every encounter must belong to a valid patient.,Excluded orphan encounter from staging/fact table.
+invalid_encounter_dates,Issue Found,1,Encounter stop_date cannot be before start_date.,Excluded invalid encounter from staging/fact table.
+orphan_observations,Issue Found,1,Every observation must belong to a valid encounter.,Excluded orphan observation from staging/fact table.
+out_of_range_observations,Issue Found,2,Vitals and labs should fall inside expected clinical bounds.,Excluded out-of-range observations from analytics table.

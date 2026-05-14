@@ -42,7 +42,7 @@ st.info(
 )
 
 checks_run = summary["checks_run"]
-failed_checks = summary["failed_checks"]
+checks_with_issues = summary["checks_with_issues"]
 failed_rows_total = summary["failed_rows_total"]
 raw_rows_total = sum(summary["raw_rows"].values())
 quality_score = round(((raw_rows_total - failed_rows_total) / raw_rows_total) * 100, 1)
@@ -79,7 +79,7 @@ with tab1:
 with tab2:
     st.subheader("Data Quality Checks")
     st.dataframe(quality_report, use_container_width=True)
-    st.write("Failed checks show what the ETL caught before data reached analytics tables.")
+    st.write("Rows with issues are identified and excluded before data reaches analytics tables.")
 
 with tab3:
     st.subheader("Analytics-Ready Tables")

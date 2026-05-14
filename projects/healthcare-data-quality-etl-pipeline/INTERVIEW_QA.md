@@ -26,7 +26,7 @@ No. It is a portfolio prototype. A production version would need orchestration, 
 
 ## How would this help analysts?
 
-It gives analysts cleaner tables, visibility into data quality problems, and reporting-ready outputs. It also documents which checks passed or failed so analysts know whether the data is reliable.
+It gives analysts cleaner tables, visibility into data quality problems, and reporting-ready outputs. It also documents which checks found issues and what action the pipeline took before the data reached analytics tables.
 
 ## What did you personally learn?
 

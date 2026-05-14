@@ -74,7 +74,7 @@ def main() -> None:
             "fact_condition": int(len(fact_condition)),
             "fact_observation": int(len(fact_observation)),
         },
-        "failed_checks": int((quality_report["status"] == "Fail").sum()),
+        "checks_with_issues": int((quality_report["failed_rows"] > 0).sum()),
         "failed_rows_total": int(quality_report["failed_rows"].sum()),
         "checks_run": int(len(quality_report)),
     }
@@ -92,37 +92,43 @@ def run_quality_checks(patients: pd.DataFrame, encounters: pd.DataFrame, observa
             "check_name": "missing_patient_ids",
             "failed_rows": int((patients["patient_id"] == "").sum()),
             "business_rule": "Every patient record must have a patient_id.",
+            "action_taken": "Excluded from staging patient table.",
         },
         {
             "check_name": "duplicate_patient_ids",
             "failed_rows": int(patients.duplicated(subset=["patient_id"]).sum()),
             "business_rule": "Patient IDs should be unique.",
+            "action_taken": "Kept first record and excluded duplicate from staging.",
         },
         {
             "check_name": "orphan_encounters",
             "failed_rows": int((~encounters["patient_id"].isin(valid_patient_ids)).sum()),
             "business_rule": "Every encounter must belong to a valid patient.",
+            "action_taken": "Excluded orphan encounter from staging/fact table.",
         },
         {
             "check_name": "invalid_encounter_dates",
             "failed_rows": int((pd.to_datetime(encounters["stop_date"]) < pd.to_datetime(encounters["start_date"])).sum()),
             "business_rule": "Encounter stop_date cannot be before start_date.",
+            "action_taken": "Excluded invalid encounter from staging/fact table.",
         },
         {
             "check_name": "orphan_observations",
             "failed_rows": int((~observations["encounter_id"].isin(valid_encounter_ids)).sum()),
             "business_rule": "Every observation must belong to a valid encounter.",
+            "action_taken": "Excluded orphan observation from staging/fact table.",
         },
         {
             "check_name": "out_of_range_observations",
             "failed_rows": int(is_out_of_range(observations).sum()),
             "business_rule": "Vitals and labs should fall inside expected clinical bounds.",
+            "action_taken": "Excluded out-of-range observations from analytics table.",
         },
     ]
 
     report = pd.DataFrame(checks)
-    report["status"] = report["failed_rows"].apply(lambda value: "Pass" if value == 0 else "Fail")
-    return report[["check_name", "status", "failed_rows", "business_rule"]]
+    report["status"] = report["failed_rows"].apply(lambda value: "Pass" if value == 0 else "Issue Found")
+    return report[["check_name", "status", "failed_rows", "business_rule", "action_taken"]]
 
 
 def is_out_of_range(observations: pd.DataFrame) -> pd.Series:

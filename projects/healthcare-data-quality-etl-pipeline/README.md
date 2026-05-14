@@ -55,6 +55,32 @@ Official Synthea project: [synthetichealth/synthea](https://github.com/synthetic
 6. Builds analytics-ready reporting tables.
 7. Displays data quality and pipeline results in a Streamlit dashboard.
 
+## SQL Skills Demonstrated
+
+- Joins across patient, encounter, condition, and observation tables.
+- Aggregations for encounter and condition summaries.
+- Data quality queries for orphan records, duplicate IDs, invalid dates, and out-of-range values.
+- Window function using `ROW_NUMBER()` to sequence encounters by patient.
+- Dimensional modeling pattern with `dim_patient` and fact-style reporting tables.
+
+## Data Lineage
+
+```text
+raw CSV files
+  -> raw SQLite tables
+  -> validation checks
+  -> cleaned staging tables
+  -> analytics tables
+  -> Streamlit dashboard / SQL reporting
+```
+
+## What A Business Team Would Do With This
+
+- Review the data quality report before using a dataset for reporting.
+- Ask source-system teams to fix recurring missing IDs, invalid dates, or orphan records.
+- Use analytics-ready tables for encounter, condition, and observation reporting.
+- Track whether data quality improves across future pipeline runs.
+
 ## Project Structure
 
 ```text

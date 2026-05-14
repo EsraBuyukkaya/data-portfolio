@@ -43,6 +43,7 @@ I generated Synthea-style synthetic healthcare records and intentionally include
 The project produces:
 
 - a data quality report
+- clear remediation actions for each failed source-data rule
 - a SQLite database
 - cleaned staging tables
 - analytics-ready tables

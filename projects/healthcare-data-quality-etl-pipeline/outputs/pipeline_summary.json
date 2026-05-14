@@ -11,7 +11,7 @@
     "fact_condition": 219,
     "fact_observation": 1167
   },
-  "failed_checks": 6,
+  "checks_with_issues": 6,
   "failed_rows_total": 7,
   "checks_run": 6
 }
