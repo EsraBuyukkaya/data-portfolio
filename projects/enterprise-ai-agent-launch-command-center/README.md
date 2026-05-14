@@ -98,6 +98,20 @@ python src/build_database.py
 python -m streamlit run src/app.py
 ```
 
+## Demo Screenshots
+
+### Real Outreach Data
+
+![AI agent real outreach data](assets/screenshots/ai-agent-real-outreach.png)
+
+### Launch Health
+
+![AI agent launch health](assets/screenshots/ai-agent-launch-health.png)
+
+### Customer Strategy Action Queue
+
+![AI agent action queue](assets/screenshots/ai-agent-action-queue.png)
+
 ## Portfolio Story
 
 This project shows how I can translate an AI customer strategy role into a working implementation workflow. It combines real customer outreach analytics, launch planning, customer success metrics, AI agent monitoring, SQL analytics, and executive-ready communication.
