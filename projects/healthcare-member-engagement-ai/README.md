@@ -92,6 +92,16 @@ python src/build_database.py
 python -m streamlit run src/app.py
 ```
 
+## Demo Screenshots
+
+### Product Dashboard
+
+![Healthcare member engagement dashboard](assets/screenshots/healthcare-dashboard.png)
+
+### Next-Best-Action Workflow
+
+![Healthcare next-best-action workflow](assets/screenshots/healthcare-next-best-actions.png)
+
 ## Portfolio Story
 
 This project shows how I can turn a product/AI job description into a working analytics prototype. It demonstrates SQL, Python, dashboarding, product thinking, and AI-workflow design in a healthcare scenario while staying privacy-safe and free to run locally.
