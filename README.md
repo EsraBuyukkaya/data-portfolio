@@ -25,13 +25,14 @@ I am especially interested in roles that combine:
 | [Mobile Food Vendor Compliance Assistant](projects/mobile-food-vendor-compliance/README.md) | A compliance consulting team wants to help mobile food vendors understand permit requirements, inspection risk, and food-safety rules. | Python, Streamlit, public data ingestion, NLP rule extraction, predictive modeling, RAG, technical reporting | [Case Study](projects/mobile-food-vendor-compliance/CASE_STUDY.md), [Interview Q&A](projects/mobile-food-vendor-compliance/INTERVIEW_QA.md), technical report, screenshots |
 | [Healthcare Member Engagement AI Product Intelligence Hub](projects/healthcare-member-engagement-ai/README.md) | A healthcare mobile product team wants to identify at-risk members, monitor engagement, and recommend outreach actions before members miss care or renewal deadlines. | Python, SQLite, SQL, Streamlit, synthetic data, product analytics, AI workflow design | [Case Study](projects/healthcare-member-engagement-ai/CASE_STUDY.md), [Interview Q&A](projects/healthcare-member-engagement-ai/INTERVIEW_QA.md), build steps |
 | [Enterprise AI Agent Launch Command Center](projects/enterprise-ai-agent-launch-command-center/README.md) | An AI customer strategy team needs to manage enterprise AI agent launches, monitor performance, resolve blockers, and prove business impact within two weeks. | Python, SQLite, SQL, Streamlit, real public customer-contact data, synthetic launch data, AI agent monitoring | [Case Study](projects/enterprise-ai-agent-launch-command-center/CASE_STUDY.md), [Interview Q&A](projects/enterprise-ai-agent-launch-command-center/INTERVIEW_QA.md), build steps |
+| [Healthcare Data Quality & ETL Pipeline](projects/healthcare-data-quality-etl-pipeline/README.md) | A healthcare data strategy team needs to validate raw EHR-style files, build analytics-ready tables, and monitor data reliability for downstream analysts. | Python, SQLite, SQL, pandas, Streamlit, ETL, data quality checks, healthcare data modeling | [Case Study](projects/healthcare-data-quality-etl-pipeline/CASE_STUDY.md), [Interview Q&A](projects/healthcare-data-quality-etl-pipeline/INTERVIEW_QA.md), build steps |
 
 ## Tools And Skills
 
 | Area | Tools / Concepts |
 |---|---|
 | Programming | Python |
-| Data Analysis | pandas, data cleaning, feature engineering, model evaluation, product metrics |
+| Data Analysis | pandas, data cleaning, feature engineering, model evaluation, product metrics, data quality checks |
 | SQL / Databases | SQLite, joins, aggregations, window functions, local data modeling |
 | AI / NLP | rule extraction, retrieval-based Q&A, RAG concepts, prompt/workflow design |
 | Apps | Streamlit |

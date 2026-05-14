@@ -1,0 +1,17 @@
+{
+  "raw_rows": {
+    "patients": 152,
+    "encounters": 391,
+    "conditions": 221,
+    "observations": 1175
+  },
+  "analytics_rows": {
+    "dim_patient": 150,
+    "fact_encounter": 389,
+    "fact_condition": 219,
+    "fact_observation": 1167
+  },
+  "failed_checks": 6,
+  "failed_rows_total": 7,
+  "checks_run": 6
+}

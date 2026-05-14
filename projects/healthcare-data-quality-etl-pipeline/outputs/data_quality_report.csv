@@ -1,0 +1,7 @@
+check_name,status,failed_rows,business_rule
+missing_patient_ids,Fail,1,Every patient record must have a patient_id.
+duplicate_patient_ids,Fail,1,Patient IDs should be unique.
+orphan_encounters,Fail,1,Every encounter must belong to a valid patient.
+invalid_encounter_dates,Fail,1,Encounter stop_date cannot be before start_date.
+orphan_observations,Fail,1,Every observation must belong to a valid encounter.
+out_of_range_observations,Fail,2,Vitals and labs should fall inside expected clinical bounds.
