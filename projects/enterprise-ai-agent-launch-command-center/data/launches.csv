@@ -1,0 +1,11 @@
+customer_id,kickoff_day,days_to_go_live,readiness_score,qa_pass_rate,launch_status
+C001,2,18,89,0.73,At Risk
+C002,3,2,74,0.86,Needs Attention
+C003,1,13,82,0.95,Needs Attention
+C004,12,2,87,0.93,On Track
+C005,9,7,75,0.74,At Risk
+C006,14,6,98,0.91,On Track
+C007,7,2,79,0.98,Needs Attention
+C008,6,15,97,0.75,At Risk
+C009,9,3,71,0.75,At Risk
+C010,6,4,81,0.98,Needs Attention

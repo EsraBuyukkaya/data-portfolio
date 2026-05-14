@@ -1,0 +1,38 @@
+blocker_id,customer_id,severity,status,owner,roadmap_category,blocker_summary
+B001-1,C001,Low,In Progress,Customer Success,Intent coverage,Escalation handoff needs clearer routing.
+B001-2,C001,Critical,In Progress,Forward Deployed Engineering,Intent coverage,Escalation handoff needs clearer routing.
+B001-3,C001,Low,In Progress,Forward Deployed Engineering,Voice model,QA scripts need customer-specific examples.
+B001-4,C001,Low,In Progress,Product,Intent coverage,QA scripts need customer-specific examples.
+B001-5,C001,High,Closed,Customer Strategy,Data integration,Agent fails on a common customer intent.
+B002-1,C002,Critical,Closed,Forward Deployed Engineering,Intent coverage,Leadership wants clearer ROI reporting.
+B002-2,C002,Medium,Open,Customer Success,Voice model,Escalation handoff needs clearer routing.
+B002-3,C002,Critical,Closed,Product,Handoff workflow,Agent fails on a common customer intent.
+B002-4,C002,Critical,Closed,Forward Deployed Engineering,Voice model,Customer data mapping is incomplete.
+B003-1,C003,High,Closed,Product,Reporting,Escalation handoff needs clearer routing.
+B003-2,C003,Low,Closed,Forward Deployed Engineering,Data integration,QA scripts need customer-specific examples.
+B003-3,C003,High,Open,Forward Deployed Engineering,Intent coverage,QA scripts need customer-specific examples.
+B003-4,C003,High,In Progress,Product,Voice model,Escalation handoff needs clearer routing.
+B003-5,C003,Critical,Open,Customer Success,Data integration,Agent fails on a common customer intent.
+B004-1,C004,Low,Closed,Customer Success,Voice model,Escalation handoff needs clearer routing.
+B004-2,C004,Low,In Progress,Customer Success,Intent coverage,Agent fails on a common customer intent.
+B005-1,C005,High,In Progress,Customer Strategy,Handoff workflow,Escalation handoff needs clearer routing.
+B005-2,C005,Low,In Progress,Product,Voice model,Escalation handoff needs clearer routing.
+B005-3,C005,Low,In Progress,Forward Deployed Engineering,Reporting,Customer data mapping is incomplete.
+B005-4,C005,High,Open,Customer Success,Data integration,Agent fails on a common customer intent.
+B005-5,C005,Medium,Closed,Customer Success,Intent coverage,Leadership wants clearer ROI reporting.
+B006-1,C006,Critical,In Progress,Customer Strategy,Reporting,Leadership wants clearer ROI reporting.
+B007-1,C007,Medium,In Progress,Forward Deployed Engineering,Data integration,QA scripts need customer-specific examples.
+B007-2,C007,Critical,Closed,Customer Strategy,Data integration,Escalation handoff needs clearer routing.
+B007-3,C007,Medium,Closed,Forward Deployed Engineering,Handoff workflow,QA scripts need customer-specific examples.
+B007-4,C007,Critical,Closed,Customer Strategy,Data integration,Agent fails on a common customer intent.
+B008-1,C008,Critical,Closed,Customer Strategy,Handoff workflow,Escalation handoff needs clearer routing.
+B008-2,C008,Low,Closed,Customer Success,Reporting,Agent fails on a common customer intent.
+B008-3,C008,Critical,Open,Customer Strategy,Reporting,Customer data mapping is incomplete.
+B009-1,C009,Critical,In Progress,Forward Deployed Engineering,Reporting,Customer data mapping is incomplete.
+B009-2,C009,Medium,In Progress,Product,Handoff workflow,Escalation handoff needs clearer routing.
+B009-3,C009,Low,Open,Product,Data integration,Agent fails on a common customer intent.
+B010-1,C010,High,In Progress,Customer Strategy,Handoff workflow,Leadership wants clearer ROI reporting.
+B010-2,C010,Critical,Open,Customer Strategy,Reporting,QA scripts need customer-specific examples.
+B010-3,C010,Medium,Closed,Forward Deployed Engineering,Handoff workflow,Escalation handoff needs clearer routing.
+B010-4,C010,Medium,In Progress,Forward Deployed Engineering,Reporting,Customer data mapping is incomplete.
+B010-5,C010,Critical,Open,Forward Deployed Engineering,Handoff workflow,Leadership wants clearer ROI reporting.

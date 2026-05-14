@@ -1,0 +1,11 @@
+customer_id,customer_name,industry,contract_value,launch_owner
+C001,Northstar Health,Education,220000,Customer Success
+C002,Metro Auto Club,Insurance,350000,Customer Success
+C003,BrightPath Education,Travel,750000,Customer Strategy
+C004,Summit Home Services,Insurance,500000,Product
+C005,Evergreen Retail,Retail,350000,Forward Deployed Engineering
+C006,Pioneer Insurance,Education,220000,Forward Deployed Engineering
+C007,Cedar Finance,Travel,125000,Customer Strategy
+C008,Luma Wellness,Home Services,350000,Customer Strategy
+C009,Atlas Travel,Home Services,500000,Product
+C010,Harbor Telecom,Travel,350000,Forward Deployed Engineering
