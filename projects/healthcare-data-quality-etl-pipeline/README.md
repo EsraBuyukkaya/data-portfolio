@@ -92,6 +92,20 @@ python src/run_etl.py
 python -m streamlit run src/app.py
 ```
 
+## Demo Screenshots
+
+### Pipeline Summary
+
+![Healthcare ETL pipeline summary](assets/screenshots/healthcare-etl-pipeline-summary.png)
+
+### Data Quality Checks
+
+![Healthcare ETL data quality checks](assets/screenshots/healthcare-etl-data-quality-checks.png)
+
+### SQL Examples
+
+![Healthcare ETL SQL examples](assets/screenshots/healthcare-etl-sql-examples.png)
+
 ## Portfolio Story
 
 This project shows how I can support healthcare analytics teams by building data pipelines, validating data quality, designing reporting tables, writing SQL, documenting data logic, and communicating reliability issues clearly.
