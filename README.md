@@ -43,6 +43,7 @@ These are the strongest projects to review first.
 
 | Project | Why It Matters | Tools / Skills | Evidence |
 |---|---|---|---|
+| [Enterprise AI Knowledge Assistant & Prompt Evaluation System](projects/enterprise-ai-knowledge-assistant/README.md) | Shows enterprise AI workflow design, RAG-style retrieval, prompt evaluation, guardrails, and AI operations planning. | Python, Streamlit, prompt testing, RAG concepts, guardrails, AI governance | [Case Study](projects/enterprise-ai-knowledge-assistant/CASE_STUDY.md), [Interview Q&A](projects/enterprise-ai-knowledge-assistant/INTERVIEW_QA.md), evaluation results |
 | [Healthcare Data Quality & ETL Pipeline](projects/healthcare-data-quality-etl-pipeline/README.md) | Shows healthcare data validation, ETL thinking, SQL modeling, and reliability checks for downstream analysts. | Python, SQL, SQLite, pandas, Streamlit, ETL, data quality | [Case Study](projects/healthcare-data-quality-etl-pipeline/CASE_STUDY.md), [Interview Q&A](projects/healthcare-data-quality-etl-pipeline/INTERVIEW_QA.md), screenshots |
 | [Enterprise AI Agent Launch Command Center](projects/enterprise-ai-agent-launch-command-center/README.md) | Shows how I would support AI customer launches by tracking readiness, blockers, agent performance, and business impact. | Python, SQL, SQLite, Streamlit, real public outreach data, AI operations | [Case Study](projects/enterprise-ai-agent-launch-command-center/CASE_STUDY.md), [Interview Q&A](projects/enterprise-ai-agent-launch-command-center/INTERVIEW_QA.md), screenshots |
 | [E-Commerce Operations & Logistics Dashboard](projects/ecommerce-ops-logistics-dashboard/README.md) | Shows operations reporting for fulfillment, carriers, returns, CX tickets, SLA pressure, and backlog risk. | Python, SQL, SQLite, Streamlit, operations analytics, CX analytics | [Case Study](projects/ecommerce-ops-logistics-dashboard/CASE_STUDY.md), [Interview Q&A](projects/ecommerce-ops-logistics-dashboard/INTERVIEW_QA.md), SQL examples |
@@ -54,6 +55,7 @@ These are the strongest projects to review first.
 
 | Project | Scenario | Skills Demonstrated |
 |---|---|---|
+| [Enterprise AI Knowledge Assistant & Prompt Evaluation System](projects/enterprise-ai-knowledge-assistant/README.md) | A university wants an internal assistant that answers from approved knowledge while following policy, tone, and safety controls. | RAG concepts, prompt evaluation, guardrails, AI operations, structured outputs |
 | [Enterprise AI Agent Launch Command Center](projects/enterprise-ai-agent-launch-command-center/README.md) | A customer strategy team needs to manage multiple AI agent launches and prove business impact within the first two weeks. | AI operations, customer strategy, KPI tracking, action queues, launch readiness |
 | [Healthcare Member Engagement AI Product Intelligence Hub](projects/healthcare-member-engagement-ai/README.md) | A healthcare product team needs to identify at-risk members and recommend outreach before missed care or renewal deadlines. | Product analytics, workflow logic, next-best-action rules, SQL metrics |
 | [Legal AI Contract Review Assistant](projects/legal-ai-contract-review/README.md) | A legal operations team wants to test whether AI-assisted review can extract key clauses and compare outputs to expert labels. | AI-assisted review, validation, clause extraction, responsible automation |
@@ -92,6 +94,7 @@ These are the strongest projects to review first.
 
 | Dashboard Type | Project |
 |---|---|
+| Enterprise AI knowledge assistant | [Enterprise AI Knowledge Assistant & Prompt Evaluation System](projects/enterprise-ai-knowledge-assistant/README.md) |
 | AI customer launch operations | [Enterprise AI Agent Launch Command Center](projects/enterprise-ai-agent-launch-command-center/README.md) |
 | Healthcare product intelligence | [Healthcare Member Engagement AI Product Intelligence Hub](projects/healthcare-member-engagement-ai/README.md) |
 | Healthcare ETL and data quality | [Healthcare Data Quality & ETL Pipeline](projects/healthcare-data-quality-etl-pipeline/README.md) |
