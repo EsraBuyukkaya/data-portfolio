@@ -18,6 +18,25 @@ My background combines 5 years of data analytics and reporting experience with A
 | Dashboard development | Streamlit dashboards for operations, healthcare, compliance, and customer strategy |
 | Business communication | Case studies, interview Q&A, limitations, build steps, and recruiter-friendly project writeups |
 
+## What Makes This Portfolio Different
+
+This is not a random collection of tutorials. Each project starts from a real job description or workplace scenario, then turns the requested skills into a working proof-of-concept.
+
+| Portfolio Edge | What It Shows |
+|---|---|
+| Job-description-based projects | I can read what a business needs and translate it into a practical build plan. |
+| AI operations focus | I understand AI adoption, workflow design, monitoring, validation, and human review. |
+| Business-first documentation | I explain the problem, users, decisions, limitations, and next steps clearly. |
+| Data quality mindset | I do not just make charts; I check whether the data is clean, reliable, and explainable. |
+| Interview-ready project notes | Each major project includes case studies and Q&A so I can discuss the work confidently. |
+
+## Portfolio Guides
+
+| Guide | Purpose |
+|---|---|
+| [How I Turn Job Descriptions Into Portfolio Projects](docs/how-i-build-job-description-projects.md) | Explains the method behind this portfolio and how I choose project ideas. |
+| [Portfolio Skill Roadmap](docs/portfolio-skill-roadmap.md) | Shows what skills are already covered and what I am adding next. |
+
 ## Featured Projects
 
 These are the strongest projects to review first.
@@ -67,6 +86,16 @@ These are the strongest projects to review first.
 | Version Control | Git, GitHub |
 | Upcoming Portfolio Additions | Tableau, Power BI |
 
+## Dashboard Gallery
+
+| Dashboard Type | Project |
+|---|---|
+| AI customer launch operations | [Enterprise AI Agent Launch Command Center](projects/enterprise-ai-agent-launch-command-center/README.md) |
+| Healthcare product intelligence | [Healthcare Member Engagement AI Product Intelligence Hub](projects/healthcare-member-engagement-ai/README.md) |
+| Healthcare ETL and data quality | [Healthcare Data Quality & ETL Pipeline](projects/healthcare-data-quality-etl-pipeline/README.md) |
+| Legal contract review workflow | [Legal AI Contract Review Assistant](projects/legal-ai-contract-review/README.md) |
+| Compliance assistant | [Mobile Food Vendor Compliance Assistant](projects/mobile-food-vendor-compliance/README.md) |
+
 ## How I Build Projects
 
 Each project follows the same process:
@@ -82,9 +111,11 @@ Each project follows the same process:
 
 | Planned Project | Skills To Demonstrate |
 |---|---|
-| Tableau Dashboard | dashboard design, filters, calculated fields, visual storytelling |
-| Power BI Operations Dashboard | Power Query, DAX basics, KPI cards, slicers, executive summary |
-| Customer Support Ticket Analysis | text classification, dashboarding, operational insights |
+| Customer Support Operations Dashboard | ticket trends, SLA risk, escalation queue, SQL metrics, operations analytics |
+| SQL Business Case Studies | joins, window functions, validation queries, business questions |
+| Tableau Public Dashboard | dashboard design, filters, calculated fields, visual storytelling |
+| Power BI Starter Dashboard | Power Query basics, DAX measures, semantic model relationships |
+| AI Workflow Playbook | AI pilot planning, adoption metrics, human review, risk controls |
 
 ## How To Read This Portfolio
 
