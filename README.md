@@ -45,6 +45,7 @@ These are the strongest projects to review first.
 |---|---|---|---|
 | [Healthcare Data Quality & ETL Pipeline](projects/healthcare-data-quality-etl-pipeline/README.md) | Shows healthcare data validation, ETL thinking, SQL modeling, and reliability checks for downstream analysts. | Python, SQL, SQLite, pandas, Streamlit, ETL, data quality | [Case Study](projects/healthcare-data-quality-etl-pipeline/CASE_STUDY.md), [Interview Q&A](projects/healthcare-data-quality-etl-pipeline/INTERVIEW_QA.md), screenshots |
 | [Enterprise AI Agent Launch Command Center](projects/enterprise-ai-agent-launch-command-center/README.md) | Shows how I would support AI customer launches by tracking readiness, blockers, agent performance, and business impact. | Python, SQL, SQLite, Streamlit, real public outreach data, AI operations | [Case Study](projects/enterprise-ai-agent-launch-command-center/CASE_STUDY.md), [Interview Q&A](projects/enterprise-ai-agent-launch-command-center/INTERVIEW_QA.md), screenshots |
+| [E-Commerce Operations & Logistics Dashboard](projects/ecommerce-ops-logistics-dashboard/README.md) | Shows operations reporting for fulfillment, carriers, returns, CX tickets, SLA pressure, and backlog risk. | Python, SQL, SQLite, Streamlit, operations analytics, CX analytics | [Case Study](projects/ecommerce-ops-logistics-dashboard/CASE_STUDY.md), [Interview Q&A](projects/ecommerce-ops-logistics-dashboard/INTERVIEW_QA.md), SQL examples |
 | [Healthcare Member Engagement AI Product Intelligence Hub](projects/healthcare-member-engagement-ai/README.md) | Shows product analytics and next-best-action logic for a healthcare mobile platform. | Python, SQL, SQLite, Streamlit, product analytics, AI workflow design | [Case Study](projects/healthcare-member-engagement-ai/CASE_STUDY.md), [Interview Q&A](projects/healthcare-member-engagement-ai/INTERVIEW_QA.md), build steps |
 | [Legal AI Contract Review Assistant](projects/legal-ai-contract-review/README.md) | Shows AI-assisted document review, clause extraction, evaluation, and responsible workflow design. | Python, Streamlit, CUAD dataset, rule-based extraction, validation | [Case Study](projects/legal-ai-contract-review/CASE_STUDY.md), [Interview Q&A](projects/legal-ai-contract-review/INTERVIEW_QA.md), evaluation results |
 | [Mobile Food Vendor Compliance Assistant](projects/mobile-food-vendor-compliance/README.md) | Shows a team-built compliance tool using public data, regulations, NLP-style extraction, RAG concepts, and risk scoring. | Python, Streamlit, public data, NLP extraction, predictive modeling, RAG | [Case Study](projects/mobile-food-vendor-compliance/CASE_STUDY.md), [Interview Q&A](projects/mobile-food-vendor-compliance/INTERVIEW_QA.md), technical report |
@@ -64,6 +65,7 @@ These are the strongest projects to review first.
 | [Healthcare Data Quality & ETL Pipeline](projects/healthcare-data-quality-etl-pipeline/README.md) | A healthcare data team needs to validate raw EHR-style files and create analytics-ready tables. | ETL, data validation, staging tables, fact/dimension modeling, SQL examples |
 | [Enterprise AI Agent Launch Command Center](projects/enterprise-ai-agent-launch-command-center/README.md) | A customer strategy team needs reliable launch and outreach metrics. | SQLite, SQL aggregations, KPI queries, public dataset integration |
 | [Healthcare Member Engagement AI Product Intelligence Hub](projects/healthcare-member-engagement-ai/README.md) | A product team needs member-level risk, renewal, and outreach reporting. | SQL metrics, dashboard tables, risk scoring, reporting logic |
+| [E-Commerce Operations & Logistics Dashboard](projects/ecommerce-ops-logistics-dashboard/README.md) | An operations team needs fulfillment, carrier, returns, CX, and SLA reporting. | SQL metrics, SQLite, cost-to-serve logic, operational risk flags |
 
 ## Compliance, Operations & Business Workflows
 
@@ -93,6 +95,7 @@ These are the strongest projects to review first.
 | AI customer launch operations | [Enterprise AI Agent Launch Command Center](projects/enterprise-ai-agent-launch-command-center/README.md) |
 | Healthcare product intelligence | [Healthcare Member Engagement AI Product Intelligence Hub](projects/healthcare-member-engagement-ai/README.md) |
 | Healthcare ETL and data quality | [Healthcare Data Quality & ETL Pipeline](projects/healthcare-data-quality-etl-pipeline/README.md) |
+| E-commerce operations and logistics | [E-Commerce Operations & Logistics Dashboard](projects/ecommerce-ops-logistics-dashboard/README.md) |
 | Legal contract review workflow | [Legal AI Contract Review Assistant](projects/legal-ai-contract-review/README.md) |
 | Compliance assistant | [Mobile Food Vendor Compliance Assistant](projects/mobile-food-vendor-compliance/README.md) |
 
@@ -111,7 +114,6 @@ Each project follows the same process:
 
 | Planned Project | Skills To Demonstrate |
 |---|---|
-| Customer Support Operations Dashboard | ticket trends, SLA risk, escalation queue, SQL metrics, operations analytics |
 | SQL Business Case Studies | joins, window functions, validation queries, business questions |
 | Tableau Public Dashboard | dashboard design, filters, calculated fields, visual storytelling |
 | Power BI Starter Dashboard | Power Query basics, DAX measures, semantic model relationships |

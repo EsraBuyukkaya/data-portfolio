@@ -1,0 +1,8 @@
+metric,value
+orders,8500.0
+tickets,1352.0
+late_delivery_rate,11.4
+return_rate,6.6
+sla_breach_rate,6.4
+avg_shipping_cost,9.4
+high_risk_days,0.0
