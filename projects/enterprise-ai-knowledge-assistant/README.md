@@ -18,6 +18,24 @@ I built a Streamlit prototype that demonstrates:
 - AI operations runbook for versioning, monitoring, and rollback
 - documentation for explaining the project in an interview
 
+## Screenshots
+
+### Assistant Demo
+
+![Enterprise AI assistant demo](assets/screenshots/enterprise-ai-assistant-demo.png)
+
+### Evaluation Results
+
+![Enterprise AI evaluation results](assets/screenshots/enterprise-ai-evaluation-results.png)
+
+### AI Ops Runbook
+
+![Enterprise AI ops runbook](assets/screenshots/enterprise-ai-ops-runbook.png)
+
+### Knowledge Base
+
+![Enterprise AI knowledge base](assets/screenshots/enterprise-ai-knowledge-base.png)
+
 ## Why Synthetic Policy Data?
 
 Real university HR, student, IT, and academic policies are usually internal. This project uses synthetic policy notes that model the same types of institutional knowledge an enterprise AI solution would need to retrieve from approved sources such as SharePoint, policy portals, HRIS documentation, IT service guides, and student support knowledge bases.
