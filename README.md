@@ -116,7 +116,7 @@ Each project follows the same process:
 |---|---|
 | SQL Business Case Studies | joins, window functions, validation queries, business questions |
 | Tableau Public Dashboard | dashboard design, filters, calculated fields, visual storytelling |
-| Power BI Starter Dashboard | Power Query basics, DAX measures, semantic model relationships |
+| Power BI Starter Dashboard - In Progress | Power Query basics, DAX measures, semantic model relationships |
 | AI Workflow Playbook | AI pilot planning, adoption metrics, human review, risk controls |
 
 ## How To Read This Portfolio
