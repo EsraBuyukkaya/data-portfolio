@@ -14,7 +14,7 @@ The workflow:
 - flags category disagreements and low-confidence predictions
 - prioritizes ambiguous records for human research
 - tracks review completion and timestamps
-- summarizes classification accuracy and recurring error reasons
+- summarizes reviewer agreement and recurring error reasons
 - gives reviewers a custom `AI QA Tools` menu in Google Sheets
 
 ## Business Results From the Sample Review
@@ -24,12 +24,12 @@ The workflow:
 | Product records evaluated | 30 |
 | Records completed by reviewers | 25 |
 | Review completion rate | 83.3% |
-| Accuracy across reviewed records | 76.0% |
+| Agreement rate across completed reviews | 76.0% |
 | Category disagreements identified | 11 |
 | Low-confidence predictions | 11 |
 | High-priority review records | 13 |
 
-These metrics show why human review is valuable: the workflow surfaces confident-looking category errors, unclear products, and missing category coverage before those issues affect downstream systems. Six disagreements were resolved in completed reviews, while five remain in the research queue.
+These metrics show why human review is valuable: the workflow surfaces confident-looking category errors, unclear products, and missing category coverage before those issues affect downstream systems. Six disagreements were resolved in completed reviews, while five remain in the research queue with provisional reviewer categories awaiting final confirmation.
 
 ## Project Preview
 
@@ -67,7 +67,7 @@ The workbook contains the completed evaluation queue, QA dashboard, and category
 |---|---|
 | `Set up workbook` | Creates and formats the required tabs |
 | `Recalculate QA flags` | Evaluates every record using consistent rules |
-| `Refresh QA dashboard` | Calculates accuracy, completion, issues, and review queue |
+| `Refresh QA dashboard` | Calculates reviewer agreement, completion, issues, and review queue |
 | `Assign next review item` | Navigates to the next unresolved high-priority record |
 | `onEdit` automation | Recalculates a record when a reviewer changes it |
 
@@ -115,4 +115,4 @@ python src\analyze_qa.py
 
 ## Limitations
 
-The product records and predictions are realistic synthetic examples. The workflow uses rule-based review prioritization rather than a live product-recognition model. In production, I would connect model outputs and catalog data through APIs, add reviewer identity and inter-annotator agreement metrics, and monitor quality trends by model version.
+The product records and AI predictions are realistic synthetic examples, not outputs from a trained production model. The workflow uses rule-based review prioritization. In production, I would connect model outputs and catalog data through APIs, add reviewer identity and inter-annotator agreement metrics, and monitor quality trends by model version.

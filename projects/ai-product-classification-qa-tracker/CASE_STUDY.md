@@ -22,8 +22,8 @@ Retail product-classification models process large volumes of records, but incor
 
 ## Key Findings
 
-- The model achieved 76.0% accuracy across completed reviews.
-- Eleven category disagreements were identified: six were resolved in completed reviews and five remain in the research queue.
+- The simulated AI predictions achieved a 76.0% agreement rate across completed reviews.
+- Eleven category disagreements were identified: six were resolved in completed reviews and five remain in the research queue with provisional reviewer categories.
 - Eleven records had confidence below 70%.
 - Thirteen records required high-priority human attention.
 - Ambiguity frequently appeared around supplements, plant-based items, and products that could fit similar categories.

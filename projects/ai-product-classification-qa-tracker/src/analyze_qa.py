@@ -43,7 +43,7 @@ def build_summary(rows: list[dict[str, str]]) -> dict:
         "total_records": len(rows),
         "reviewed_records": len(reviewed),
         "review_completion_rate": round(len(reviewed) / len(rows), 3),
-        "reviewed_classification_accuracy": round(len(matches) / len(reviewed), 3),
+        "reviewed_category_agreement_rate": round(len(matches) / len(reviewed), 3),
         "category_mismatches": sum(category_match(row) == "Mismatch" for row in rows),
         "low_confidence_records": sum(
             float(row["ai_confidence"]) < LOW_CONFIDENCE_THRESHOLD for row in rows

@@ -7,12 +7,10 @@ This guide lets you reproduce the project in a free Google account.
 1. Open [Google Sheets](https://sheets.google.com).
 2. Create a blank spreadsheet.
 3. Rename it `AI Product Classification QA Tracker`.
-4. Rename the first tab `Evaluations`.
-5. Import `data/sample_product_evaluations.csv` into the `Evaluations` tab.
-6. Add a new tab named `Category Guide`.
-7. Import `data/category_guide.csv` into the `Category Guide` tab.
+4. Import `data/sample_product_evaluations.csv` and choose **Insert new sheet(s)**.
+5. Import `data/category_guide.csv` and choose **Insert new sheet(s)**.
 
-When importing each CSV, choose **Replace current sheet**.
+The setup automation recognizes the imported tab names and safely renames them to `Evaluations` and `Category Guide`. Choosing **Insert new sheet(s)** prevents an import from replacing existing project data.
 
 ## Part 2: Add the Apps Script
 
@@ -28,7 +26,7 @@ Google will ask for permission the first time you run the script because it edit
 ## Part 3: Run the Workflow
 
 1. Open the new **AI QA Tools** menu.
-2. Select **Set up workbook**.
+2. Select **Set up workbook**. This safely finds and renames the imported CSV tabs.
 3. Select **Recalculate QA flags**.
 4. Select **Refresh QA dashboard**.
 5. Open the `QA Dashboard` tab.

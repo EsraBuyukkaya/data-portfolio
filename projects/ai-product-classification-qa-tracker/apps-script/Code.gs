@@ -31,9 +31,17 @@ function onOpen() {
 
 function setupWorkbook() {
   const spreadsheet = SpreadsheetApp.getActive();
-  const evaluations = getOrCreateSheet_(spreadsheet, CONFIG.evaluationSheet);
+  const evaluations = getOrCreateSheetFromAliases_(
+    spreadsheet,
+    CONFIG.evaluationSheet,
+    ['sample_product_evaluations']
+  );
   const dashboard = getOrCreateSheet_(spreadsheet, CONFIG.dashboardSheet);
-  const guide = getOrCreateSheet_(spreadsheet, CONFIG.guideSheet);
+  const guide = getOrCreateSheetFromAliases_(
+    spreadsheet,
+    CONFIG.guideSheet,
+    ['category_guide']
+  );
 
   if (evaluations.getLastRow() === 0) {
     evaluations.getRange(1, 1, 1, CONFIG.headers.length).setValues([CONFIG.headers]);
@@ -47,7 +55,7 @@ function setupWorkbook() {
   spreadsheet.setActiveSheet(evaluations);
   SpreadsheetApp.getUi().alert(
     'Workbook ready',
-    'Paste or import the sample evaluation CSV into the Evaluations tab, then use AI QA Tools > Recalculate QA flags.',
+    'The required tabs are ready. Use AI QA Tools > Recalculate QA flags, then refresh the QA dashboard.',
     SpreadsheetApp.getUi().ButtonSet.OK
   );
 }
@@ -120,7 +128,7 @@ function refreshDashboard() {
   const mismatches = rows.filter(row => String(row[headerMap.category_match]) === 'Mismatch').length;
   const highPriority = rows.filter(row => String(row[headerMap.priority]) === 'High').length;
   const lowConfidence = rows.filter(row => Number(row[headerMap.ai_confidence]) < CONFIG.lowConfidenceThreshold).length;
-  const accuracy = reviewed ? matches / reviewed : 0;
+  const agreementRate = reviewed ? matches / reviewed : 0;
   const completion = total ? reviewed / total : 0;
 
   const metrics = [
@@ -128,7 +136,7 @@ function refreshDashboard() {
     ['Total records', total],
     ['Reviewed records', reviewed],
     ['Review completion rate', completion],
-    ['Reviewed classification accuracy', accuracy],
+    ['Reviewed category agreement rate', agreementRate],
     ['Category mismatches', mismatches],
     ['Low-confidence records', lowConfidence],
     ['High-priority records', highPriority]
@@ -235,4 +243,18 @@ function getHeaderMap_(sheet) {
 
 function getOrCreateSheet_(spreadsheet, name) {
   return spreadsheet.getSheetByName(name) || spreadsheet.insertSheet(name);
+}
+
+function getOrCreateSheetFromAliases_(spreadsheet, name, aliases) {
+  const namedSheet = spreadsheet.getSheetByName(name);
+  if (namedSheet) return namedSheet;
+
+  for (const alias of aliases) {
+    const importedSheet = spreadsheet.getSheetByName(alias);
+    if (importedSheet) {
+      importedSheet.setName(name);
+      return importedSheet;
+    }
+  }
+  return spreadsheet.insertSheet(name);
 }

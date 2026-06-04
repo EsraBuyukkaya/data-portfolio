@@ -2,7 +2,7 @@
   "total_records": 30,
   "reviewed_records": 25,
   "review_completion_rate": 0.833,
-  "reviewed_classification_accuracy": 0.76,
+  "reviewed_category_agreement_rate": 0.76,
   "category_mismatches": 11,
   "low_confidence_records": 11,
   "high_priority_records": 13,

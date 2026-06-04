@@ -2,7 +2,7 @@
 
 ## How would you explain this project?
 
-I built a Google Sheets and Apps Script workflow for reviewing AI-generated retail product classifications. It compares AI predictions with reviewer-approved labels, prioritizes low-confidence and ambiguous cases, and summarizes accuracy and recurring quality issues.
+I built a Google Sheets and Apps Script workflow for reviewing AI-generated retail product classifications. It compares AI predictions with reviewer-approved labels, prioritizes low-confidence and ambiguous cases, and summarizes reviewer agreement and recurring quality issues.
 
 ## Why is this relevant to AI Operations?
 
@@ -22,7 +22,7 @@ Google Sheets is accessible to operations teams, supports collaboration, and is 
 
 ## What did you learn from the sample data?
 
-The reviewed model accuracy was 76%. The most difficult classifications involved supplements, plant-based frozen items, and products that could fit similar categories. That indicates where better category guidance or additional training examples would help.
+The simulated AI predictions had a 76% agreement rate across completed reviews. The most difficult classifications involved supplements, plant-based frozen items, and products that could fit similar categories. That indicates where better category guidance or additional training examples would help.
 
 ## How would you improve this in production?
 
