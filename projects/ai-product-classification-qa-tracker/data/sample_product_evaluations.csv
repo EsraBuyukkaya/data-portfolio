@@ -1,0 +1,31 @@
+record_id,product_description,brand,ai_predicted_category,ai_confidence,reviewer_approved_category,error_reason,review_status,reviewer_notes
+P001,Organic whole milk 1 gallon,Green Valley,Dairy,0.98,Dairy,,Reviewed,Clear product and category match
+P002,Chocolate sandwich cookies family size,Happy Oven,Snacks,0.96,Snacks,,Reviewed,Clear product and category match
+P003,Sparkling lemon water 12 pack,Clear Spring,Beverages,0.93,Beverages,,Reviewed,Clear product and category match
+P004,Frozen pepperoni pizza 18 oz,Stone Hearth,Frozen Foods,0.91,Frozen Foods,,Reviewed,Clear product and category match
+P005,Ultra moisturizing body wash,Care Daily,Household,0.62,Personal Care,Similar Category,Reviewed,Body wash belongs in Personal Care
+P006,Laundry detergent fresh scent 64 loads,Bright Home,Household,0.95,Household,,Reviewed,Clear product and category match
+P007,Chicken noodle soup 18 oz can,Kitchen Table,Pantry,0.88,Pantry,,Reviewed,Clear product and category match
+P008,Vanilla protein shake 4 pack,Active Life,Beverages,0.54,Health and Wellness,Ambiguous Product,Needs Research,Could be beverage or nutritional supplement
+P009,Cheddar cheese snack sticks 12 pack,Meadow Farms,Dairy,0.86,Dairy,,Reviewed,Clear product and category match
+P010,Disinfecting surface wipes 75 count,Clean Day,Personal Care,0.73,Household,Similar Category,Reviewed,Surface cleaner belongs in Household
+P011,Strawberry fruit spread,Country Jar,Pantry,0.82,Pantry,,Reviewed,Clear product and category match
+P012,Children's gummy multivitamin,Healthy Steps,Snacks,0.58,Health and Wellness,Similar Category,Reviewed,Vitamin product is not a snack
+P013,Cold brew coffee concentrate,Brew Works,Beverages,0.89,Beverages,,Reviewed,Clear product and category match
+P014,Plant-based burger patties frozen,Green Grill,Meat and Seafood,0.51,Frozen Foods,Ambiguous Product,Needs Research,Review guide for plant-based frozen products
+P015,Aluminum foil 75 square feet,Home Basics,Household,0.97,Household,,Reviewed,Clear product and category match
+P016,Fresh Atlantic salmon fillet,Ocean Market,Meat and Seafood,0.94,Meat and Seafood,,Reviewed,Clear product and category match
+P017,Baby shampoo tear free,Little Star,Personal Care,0.87,Personal Care,,Reviewed,Clear product and category match
+P018,Gluten-free pancake mix,Morning Mill,Bakery,0.67,Pantry,Similar Category,Reviewed,Dry mix belongs in Pantry
+P019,Ready-to-eat Caesar salad bowl,Fresh Fork,Produce,0.79,Produce,,Reviewed,Prepared produce item
+P020,Peanut butter protein bar,Peak Fuel,Snacks,0.63,Snacks,,Reviewed,Snack bar classification accepted
+P021,Cat litter odor control 20 lb,Paws Home,Household,0.48,Pet Care,Missing Category,Needs Research,Pet Care was missing from original model categories
+P022,Roasted garlic hummus 10 oz,Mediterranean Table,Deli,0.76,Deli,,Reviewed,Refrigerated prepared dip
+P023,Electric toothbrush replacement heads,Bright Smile,Personal Care,0.69,Personal Care,,Reviewed,Clear personal care classification
+P024,Chocolate flavored meal replacement powder,NutriStart,Beverages,0.46,Health and Wellness,Ambiguous Product,Needs Research,Nutritional powder needs policy review
+P025,Fresh blueberries 1 pint,Farm Select,Produce,0.99,Produce,,Reviewed,Clear product and category match
+P026,Ice cream sandwiches 6 count,Happy Freeze,Dairy,0.71,Frozen Foods,Similar Category,Reviewed,Frozen dessert follows Frozen Foods guide
+P027,Paper towels 8 rolls,Home Basics,Household,0.98,Household,,Reviewed,Clear product and category match
+P028,Turkey breast sliced deli meat,Market Deli,Meat and Seafood,0.65,Deli,Similar Category,Reviewed,Prepared sliced meat follows Deli guide
+P029,Herbal sleep support capsules,Rest Well,Personal Care,0.44,Health and Wellness,Similar Category,Needs Research,Supplement requires Health and Wellness classification
+P030,Artisan sourdough bread loaf,Daily Bake,Bakery,0.96,Bakery,,Reviewed,Clear product and category match

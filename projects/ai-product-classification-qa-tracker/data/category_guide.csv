@@ -1,0 +1,14 @@
+category,definition,examples,review_notes
+Bakery,Fresh baked bread and bakery products,Bread; rolls; fresh pastries,Dry baking mixes belong in Pantry
+Beverages,Ready-to-drink nonalcoholic beverages,Water; soda; coffee; juice,Nutritional supplements require additional review
+Dairy,Milk cheese and refrigerated dairy products,Milk; cheese; yogurt,Frozen dairy desserts belong in Frozen Foods
+Deli,Prepared refrigerated foods and sliced deli products,Hummus; prepared salads; sliced deli meat,Use for ready-to-eat refrigerated items
+Frozen Foods,Products sold and stored frozen,Frozen meals; pizza; ice cream,Includes plant-based products when sold frozen
+Health and Wellness,Vitamins supplements and nutritional support products,Vitamins; supplements; meal replacement powder,Escalate unclear wellness claims
+Household,Home cleaning paper and general household supplies,Detergent; foil; paper towels,Does not include personal hygiene or pet products
+Meat and Seafood,Fresh or raw meat poultry and seafood,Fresh salmon; raw chicken; ground beef,Prepared sliced meats belong in Deli
+Pantry,Shelf-stable foods and cooking ingredients,Soup; spreads; dry mixes,Use for shelf-stable grocery products
+Personal Care,Personal hygiene beauty and grooming products,Body wash; shampoo; toothbrushes,Does not include household cleaning products
+Pet Care,Food supplies and care products for pets,Pet food; litter; pet treats,Flag if model category set does not include Pet Care
+Produce,Fresh fruit vegetables and produce-based prepared items,Blueberries; lettuce; salad bowls,Prepared salads may require Deli review
+Snacks,Ready-to-eat snack foods,Cookies; chips; snack bars,Does not include vitamins or supplements

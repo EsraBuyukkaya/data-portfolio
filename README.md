@@ -43,6 +43,7 @@ These are the strongest projects to review first.
 
 | Project | Why It Matters | Tools / Skills | Evidence |
 |---|---|---|---|
+| [AI Product Classification QA Tracker](projects/ai-product-classification-qa-tracker/README.md) | Shows hands-on AI output evaluation, data annotation, ambiguous-case research, and QA workflow automation for retail product classifications. | Google Sheets, Google Apps Script, JavaScript, Python, AI evaluation, data labeling, retail operations | [Completed Workbook](projects/ai-product-classification-qa-tracker/AI_Product_Classification_QA_Tracker.xlsx), [Case Study](projects/ai-product-classification-qa-tracker/CASE_STUDY.md), [Interview Q&A](projects/ai-product-classification-qa-tracker/INTERVIEW_QA.md) |
 | [Enterprise AI Knowledge Assistant & Prompt Evaluation System](projects/enterprise-ai-knowledge-assistant/README.md) | Shows enterprise AI workflow design, RAG-style retrieval, prompt evaluation, guardrails, and AI operations planning. | Python, Streamlit, prompt testing, RAG concepts, guardrails, AI governance | [Case Study](projects/enterprise-ai-knowledge-assistant/CASE_STUDY.md), [Interview Q&A](projects/enterprise-ai-knowledge-assistant/INTERVIEW_QA.md), evaluation results |
 | [Healthcare Data Quality & ETL Pipeline](projects/healthcare-data-quality-etl-pipeline/README.md) | Shows healthcare data validation, ETL thinking, SQL modeling, and reliability checks for downstream analysts. | Python, SQL, SQLite, pandas, Streamlit, ETL, data quality | [Case Study](projects/healthcare-data-quality-etl-pipeline/CASE_STUDY.md), [Interview Q&A](projects/healthcare-data-quality-etl-pipeline/INTERVIEW_QA.md), screenshots |
 | [Enterprise AI Agent Launch Command Center](projects/enterprise-ai-agent-launch-command-center/README.md) | Shows how I would support AI customer launches by tracking readiness, blockers, agent performance, and business impact. | Python, SQL, SQLite, Streamlit, real public outreach data, AI operations | [Case Study](projects/enterprise-ai-agent-launch-command-center/CASE_STUDY.md), [Interview Q&A](projects/enterprise-ai-agent-launch-command-center/INTERVIEW_QA.md), screenshots |
@@ -55,6 +56,7 @@ These are the strongest projects to review first.
 
 | Project | Scenario | Skills Demonstrated |
 |---|---|---|
+| [AI Product Classification QA Tracker](projects/ai-product-classification-qa-tracker/README.md) | An AI operations team needs reviewers to evaluate product classifications, investigate ambiguous records, and identify recurring model-quality issues. | AI evaluation, data annotation, Google Apps Script automation, QA metrics, human review |
 | [Enterprise AI Knowledge Assistant & Prompt Evaluation System](projects/enterprise-ai-knowledge-assistant/README.md) | A university wants an internal assistant that answers from approved knowledge while following policy, tone, and safety controls. | RAG concepts, prompt evaluation, guardrails, AI operations, structured outputs |
 | [Enterprise AI Agent Launch Command Center](projects/enterprise-ai-agent-launch-command-center/README.md) | A customer strategy team needs to manage multiple AI agent launches and prove business impact within the first two weeks. | AI operations, customer strategy, KPI tracking, action queues, launch readiness |
 | [Healthcare Member Engagement AI Product Intelligence Hub](projects/healthcare-member-engagement-ai/README.md) | A healthcare product team needs to identify at-risk members and recommend outreach before missed care or renewal deadlines. | Product analytics, workflow logic, next-best-action rules, SQL metrics |
@@ -84,8 +86,9 @@ These are the strongest projects to review first.
 | Programming | Python |
 | Data Analysis | pandas, data cleaning, feature engineering, product metrics, data quality checks |
 | SQL / Databases | SQLite, joins, aggregations, window functions, staging tables, fact/dimension tables |
-| AI / NLP | AI workflow design, rule extraction, retrieval-based Q&A, RAG concepts, validation |
+| AI / NLP | AI workflow design, output evaluation, data annotation, rule extraction, retrieval-based Q&A, RAG concepts, validation |
 | Dashboards | Streamlit, KPI cards, tables, scenario dashboards, operational views |
+| Automation | Google Apps Script, Google Sheets QA workflows, review queues |
 | Documentation | README files, case studies, interview Q&A, technical reports, build steps |
 | Version Control | Git, GitHub |
 | Upcoming Portfolio Additions | Tableau, Power BI |
@@ -94,6 +97,7 @@ These are the strongest projects to review first.
 
 | Dashboard Type | Project |
 |---|---|
+| AI product classification QA | [AI Product Classification QA Tracker](projects/ai-product-classification-qa-tracker/README.md) |
 | Enterprise AI knowledge assistant | [Enterprise AI Knowledge Assistant & Prompt Evaluation System](projects/enterprise-ai-knowledge-assistant/README.md) |
 | AI customer launch operations | [Enterprise AI Agent Launch Command Center](projects/enterprise-ai-agent-launch-command-center/README.md) |
 | Healthcare product intelligence | [Healthcare Member Engagement AI Product Intelligence Hub](projects/healthcare-member-engagement-ai/README.md) |

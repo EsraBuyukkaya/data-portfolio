@@ -1,0 +1,15 @@
+{
+  "total_records": 30,
+  "reviewed_records": 25,
+  "review_completion_rate": 0.833,
+  "reviewed_classification_accuracy": 0.76,
+  "category_mismatches": 11,
+  "low_confidence_records": 11,
+  "high_priority_records": 13,
+  "error_reason_counts": {
+    "No error": 19,
+    "Similar Category": 7,
+    "Ambiguous Product": 3,
+    "Missing Category": 1
+  }
+}
