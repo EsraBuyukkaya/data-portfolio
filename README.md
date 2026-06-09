@@ -44,6 +44,8 @@ These are the strongest projects to review first.
 | Project | Why It Matters | Tools / Skills | Evidence |
 |---|---|---|---|
 | [AI Product Classification QA Tracker](projects/ai-product-classification-qa-tracker/README.md) | Shows hands-on AI output evaluation, data annotation, ambiguous-case research, and QA workflow automation for retail product classifications. | Google Sheets, Google Apps Script, JavaScript, Python, AI evaluation, data labeling, retail operations | [Completed Workbook](projects/ai-product-classification-qa-tracker/AI_Product_Classification_QA_Tracker.xlsx), [Case Study](projects/ai-product-classification-qa-tracker/CASE_STUDY.md), [Interview Q&A](projects/ai-product-classification-qa-tracker/INTERVIEW_QA.md) |
+| [FIFA World Cup Team Popularity & Player Earnings Analysis](projects/world-cup-football-analysis/README.md) | Shows notebook-style exploratory analysis, metric design, sports data storytelling, and careful handling of "popularity" as a measurable proxy. | Python, pandas, Jupyter Notebook, CSV modeling, EDA | [Notebook](projects/world-cup-football-analysis/World_Cup_Football_Analysis.ipynb), data files, reproducible script |
+| [Healthcare Chat Agent RAG Evaluation Lab](projects/healthcare-chat-agent-rag-evaluation-lab/README.md) | Shows prompt experimentation, RAG-style retrieval, regression testing, and safety evaluation for a healthcare chat assistant. | Python, Streamlit, RAG concepts, prompt evaluation, healthcare guardrails, experiment design | [Case Study](projects/healthcare-chat-agent-rag-evaluation-lab/CASE_STUDY.md), [Interview Q&A](projects/healthcare-chat-agent-rag-evaluation-lab/INTERVIEW_QA.md), evaluation outputs |
 | [Enterprise AI Knowledge Assistant & Prompt Evaluation System](projects/enterprise-ai-knowledge-assistant/README.md) | Shows enterprise AI workflow design, RAG-style retrieval, prompt evaluation, guardrails, and AI operations planning. | Python, Streamlit, prompt testing, RAG concepts, guardrails, AI governance | [Case Study](projects/enterprise-ai-knowledge-assistant/CASE_STUDY.md), [Interview Q&A](projects/enterprise-ai-knowledge-assistant/INTERVIEW_QA.md), evaluation results |
 | [Healthcare Data Quality & ETL Pipeline](projects/healthcare-data-quality-etl-pipeline/README.md) | Shows healthcare data validation, ETL thinking, SQL modeling, and reliability checks for downstream analysts. | Python, SQL, SQLite, pandas, Streamlit, ETL, data quality | [Case Study](projects/healthcare-data-quality-etl-pipeline/CASE_STUDY.md), [Interview Q&A](projects/healthcare-data-quality-etl-pipeline/INTERVIEW_QA.md), screenshots |
 | [Enterprise AI Agent Launch Command Center](projects/enterprise-ai-agent-launch-command-center/README.md) | Shows how I would support AI customer launches by tracking readiness, blockers, agent performance, and business impact. | Python, SQL, SQLite, Streamlit, real public outreach data, AI operations | [Case Study](projects/enterprise-ai-agent-launch-command-center/CASE_STUDY.md), [Interview Q&A](projects/enterprise-ai-agent-launch-command-center/INTERVIEW_QA.md), screenshots |
@@ -57,6 +59,7 @@ These are the strongest projects to review first.
 | Project | Scenario | Skills Demonstrated |
 |---|---|---|
 | [AI Product Classification QA Tracker](projects/ai-product-classification-qa-tracker/README.md) | An AI operations team needs reviewers to evaluate product classifications, investigate ambiguous records, and identify recurring model-quality issues. | AI evaluation, data annotation, Google Apps Script automation, QA metrics, human review |
+| [Healthcare Chat Agent RAG Evaluation Lab](projects/healthcare-chat-agent-rag-evaluation-lab/README.md) | A healthcare AI team needs to test a prompt change before deploying it to a patient support chat assistant. | RAG concepts, prompt experiments, regression tests, safety scoring, escalation rules |
 | [Enterprise AI Knowledge Assistant & Prompt Evaluation System](projects/enterprise-ai-knowledge-assistant/README.md) | A university wants an internal assistant that answers from approved knowledge while following policy, tone, and safety controls. | RAG concepts, prompt evaluation, guardrails, AI operations, structured outputs |
 | [Enterprise AI Agent Launch Command Center](projects/enterprise-ai-agent-launch-command-center/README.md) | A customer strategy team needs to manage multiple AI agent launches and prove business impact within the first two weeks. | AI operations, customer strategy, KPI tracking, action queues, launch readiness |
 | [Healthcare Member Engagement AI Product Intelligence Hub](projects/healthcare-member-engagement-ai/README.md) | A healthcare product team needs to identify at-risk members and recommend outreach before missed care or renewal deadlines. | Product analytics, workflow logic, next-best-action rules, SQL metrics |
@@ -71,6 +74,20 @@ These are the strongest projects to review first.
 | [Healthcare Member Engagement AI Product Intelligence Hub](projects/healthcare-member-engagement-ai/README.md) | A product team needs member-level risk, renewal, and outreach reporting. | SQL metrics, dashboard tables, risk scoring, reporting logic |
 | [E-Commerce Operations & Logistics Dashboard](projects/ecommerce-ops-logistics-dashboard/README.md) | An operations team needs fulfillment, carrier, returns, CX, and SLA reporting. | SQL metrics, SQLite, cost-to-serve logic, operational risk flags |
 
+## Python
+
+| Project | Area | What The Python Work Shows | Libraries / Tools |
+|---|---|---|---|
+| [FIFA World Cup Team Popularity & Player Earnings Analysis](projects/world-cup-football-analysis/README.md) | Exploratory analysis, sports analytics, metric design | Built a notebook-style analysis that compares World Cup winners, finalists, team visibility, regional dominance, and player earnings while clearly documenting data limitations. | Python, pandas, Jupyter Notebook |
+| [Healthcare Chat Agent RAG Evaluation Lab](projects/healthcare-chat-agent-rag-evaluation-lab/README.md) | RAG, prompt testing, healthcare guardrails | Built a local retrieval and evaluation harness that compares prompt variants across patient-chat regression tests for safety, escalation, required wording, and retrieval quality. | Python, Streamlit, csv/json, local markdown knowledge base |
+| [Healthcare Data Quality & ETL Pipeline](projects/healthcare-data-quality-etl-pipeline/README.md) | ETL, data validation, SQL modeling | Built a healthcare-style pipeline that loads raw records, runs data quality checks, removes invalid rows, and creates analytics-ready fact and dimension tables. | Python, pandas, SQLite, Streamlit |
+| [Enterprise AI Knowledge Assistant & Prompt Evaluation System](projects/enterprise-ai-knowledge-assistant/README.md) | AI workflow evaluation, RAG-style retrieval | Built a governed assistant prototype that retrieves approved policy context, returns structured outputs, and evaluates responses against safety and quality test cases. | Python, Streamlit, pandas |
+| [E-Commerce Operations & Logistics Dashboard](projects/ecommerce-ops-logistics-dashboard/README.md) | Operations analytics, risk scoring | Generated operational datasets and calculated fulfillment, carrier, return, CX, SLA, and backlog-risk metrics for a business dashboard. | Python, pandas, SQLite, Streamlit |
+| [Healthcare Member Engagement AI Product Intelligence Hub](projects/healthcare-member-engagement-ai/README.md) | Product analytics, next-best-action logic | Built member-level risk scoring and next-best-action recommendations using product, engagement, renewal, appointment, and outreach data. | Python, SQLite, Streamlit |
+| [Enterprise AI Agent Launch Command Center](projects/enterprise-ai-agent-launch-command-center/README.md) | AI operations, customer launch analytics | Combined public outreach data with simulated launch operations to track readiness, blockers, containment, performance, and action queues. | Python, pandas, SQLite, Streamlit |
+| [Legal AI Contract Review Assistant](projects/legal-ai-contract-review/README.md) | Document review, clause extraction | Built a rule-based contract review prototype that extracts key clauses, flags missing terms, and compares selected outputs against CUAD labels. | Python, Streamlit, public CUAD data |
+| [Mobile Food Vendor Compliance Assistant](projects/mobile-food-vendor-compliance/README.md) | Compliance analytics, risk modeling | Supported a team-built compliance assistant using public inspection data, regulation references, RAG-style retrieval, and risk scoring. | Python, Streamlit, public data |
+
 ## Compliance, Operations & Business Workflows
 
 | Project | Scenario | Skills Demonstrated |
@@ -83,7 +100,7 @@ These are the strongest projects to review first.
 
 | Area | Tools / Concepts |
 |---|---|
-| Programming | Python |
+| Programming | Python for data cleaning, ETL, SQLite analysis, Streamlit dashboards, QA automation, rule-based scoring, and business workflow prototypes |
 | Data Analysis | pandas, data cleaning, feature engineering, product metrics, data quality checks |
 | SQL / Databases | SQLite, joins, aggregations, window functions, staging tables, fact/dimension tables |
 | AI / NLP | AI workflow design, output evaluation, data annotation, rule extraction, retrieval-based Q&A, RAG concepts, validation |
