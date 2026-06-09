@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="660" viewBox="0 0 1100 660" role="img" aria-label="Highest-paid footballers with country World Cup title context">
+  <rect width="1100" height="660" fill="#ffffff"/>
+  <text x="60" y="70" font-family="Segoe UI, Arial, sans-serif" font-size="34" font-weight="700" fill="#111827">Highest-Paid Footballers vs Country World Cup Titles</text>
+  <text x="60" y="105" font-family="Segoe UI, Arial, sans-serif" font-size="17" fill="#4b5563">Individual market value does not always match national-team trophy history.</text>
+  <line x1="310" y1="560" x2="1000" y2="560" stroke="#d1d5db" stroke-width="2"/>
+  <g font-family="Segoe UI, Arial, sans-serif" font-size="16" fill="#111827">
+    <text x="60" y="160">Cristiano Ronaldo</text>
+    <text x="235" y="160" fill="#6b7280">Portugal</text>
+    <rect x="310" y="135" width="560" height="28" rx="4" fill="#ef4444"/>
+    <text x="885" y="158" font-weight="700">$280M</text>
+    <text x="980" y="158" fill="#6b7280">0 titles</text>
+    <text x="60" y="215">Lionel Messi</text>
+    <text x="235" y="215" fill="#6b7280">Argentina</text>
+    <rect x="310" y="190" width="260" height="28" rx="4" fill="#f97316"/>
+    <text x="585" y="213" font-weight="700">$130M</text>
+    <text x="980" y="213" fill="#6b7280">3 titles</text>
+    <text x="60" y="270">Karim Benzema</text>
+    <text x="235" y="270" fill="#6b7280">France</text>
+    <rect x="310" y="245" width="208" height="28" rx="4" fill="#f59e0b"/>
+    <text x="533" y="268" font-weight="700">$104M</text>
+    <text x="980" y="268" fill="#6b7280">2 titles</text>
+    <text x="60" y="325">Kylian Mbappe</text>
+    <text x="235" y="325" fill="#6b7280">France</text>
+    <rect x="310" y="300" width="190" height="28" rx="4" fill="#eab308"/>
+    <text x="515" y="323" font-weight="700">$95M</text>
+    <text x="980" y="323" fill="#6b7280">2 titles</text>
+    <text x="60" y="380">Erling Haaland</text>
+    <text x="235" y="380" fill="#6b7280">Norway</text>
+    <rect x="310" y="355" width="160" height="28" rx="4" fill="#84cc16"/>
+    <text x="485" y="378" font-weight="700">$80M</text>
+    <text x="980" y="378" fill="#6b7280">0 titles</text>
+    <text x="60" y="435">Vinicius Junior</text>
+    <text x="235" y="435" fill="#6b7280">Brazil</text>
+    <rect x="310" y="410" width="120" height="28" rx="4" fill="#22c55e"/>
+    <text x="445" y="433" font-weight="700">$60M</text>
+    <text x="980" y="433" fill="#6b7280">5 titles</text>
+    <text x="60" y="490">Mohamed Salah</text>
+    <text x="235" y="490" fill="#6b7280">Egypt</text>
+    <rect x="310" y="465" width="110" height="28" rx="4" fill="#06b6d4"/>
+    <text x="435" y="488" font-weight="700">$55M</text>
+    <text x="980" y="488" fill="#6b7280">0 titles</text>
+  </g>
+  <text x="60" y="620" font-family="Segoe UI, Arial, sans-serif" font-size="15" fill="#6b7280">Earnings are estimated annual totals from Forbes' 2025 highest-paid soccer player list.</text>
+</svg>

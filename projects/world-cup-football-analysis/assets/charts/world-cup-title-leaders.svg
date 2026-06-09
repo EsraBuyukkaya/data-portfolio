@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="620" viewBox="0 0 1100 620" role="img" aria-label="World Cup title leaders bar chart">
+  <rect width="1100" height="620" fill="#ffffff"/>
+  <text x="60" y="70" font-family="Segoe UI, Arial, sans-serif" font-size="34" font-weight="700" fill="#111827">World Cup Titles by Country</text>
+  <text x="60" y="105" font-family="Segoe UI, Arial, sans-serif" font-size="17" fill="#4b5563">Brazil leads the all-time title count, followed by Germany and Italy.</text>
+  <line x1="250" y1="500" x2="1000" y2="500" stroke="#d1d5db" stroke-width="2"/>
+  <line x1="250" y1="405" x2="1000" y2="405" stroke="#eef2f7" stroke-width="1"/>
+  <line x1="250" y1="310" x2="1000" y2="310" stroke="#eef2f7" stroke-width="1"/>
+  <line x1="250" y1="215" x2="1000" y2="215" stroke="#eef2f7" stroke-width="1"/>
+  <line x1="250" y1="120" x2="1000" y2="120" stroke="#eef2f7" stroke-width="1"/>
+  <g font-family="Segoe UI, Arial, sans-serif" font-size="16" fill="#374151">
+    <text x="180" y="505">0</text>
+    <text x="180" y="410">1</text>
+    <text x="180" y="315">2</text>
+    <text x="180" y="220">3</text>
+    <text x="180" y="125">4+</text>
+  </g>
+  <g font-family="Segoe UI, Arial, sans-serif" font-size="17" fill="#111827">
+    <text x="64" y="171">Brazil</text>
+    <rect x="250" y="137" width="700" height="42" rx="5" fill="#1d4ed8"/>
+    <text x="965" y="165" font-weight="700">5</text>
+    <text x="64" y="231">Germany</text>
+    <rect x="250" y="197" width="560" height="42" rx="5" fill="#2563eb"/>
+    <text x="825" y="225" font-weight="700">4</text>
+    <text x="64" y="291">Italy</text>
+    <rect x="250" y="257" width="560" height="42" rx="5" fill="#3b82f6"/>
+    <text x="825" y="285" font-weight="700">4</text>
+    <text x="64" y="351">Argentina</text>
+    <rect x="250" y="317" width="420" height="42" rx="5" fill="#60a5fa"/>
+    <text x="685" y="345" font-weight="700">3</text>
+    <text x="64" y="411">France</text>
+    <rect x="250" y="377" width="280" height="42" rx="5" fill="#93c5fd"/>
+    <text x="545" y="405" font-weight="700">2</text>
+    <text x="64" y="471">Uruguay</text>
+    <rect x="250" y="437" width="280" height="42" rx="5" fill="#bfdbfe"/>
+    <text x="545" y="465" font-weight="700">2</text>
+  </g>
+  <text x="60" y="565" font-family="Segoe UI, Arial, sans-serif" font-size="15" fill="#6b7280">Source: FIFA World Cup historical records through 2022.</text>
+</svg>

@@ -2,6 +2,8 @@
 
 Notebook-style exploratory data analysis inspired by a classic data analyst portfolio format: questions, data wrangling, exploratory analysis, and conclusions.
 
+![World Cup visibility score](assets/charts/world-cup-visibility-score.svg)
+
 ## Scenario
 
 A sports media team wants a clear, data-backed story before publishing a World Cup feature. The team wants to know which countries dominate tournament history, which teams are most visible to global fans, and whether the highest-paid footballers come from the most successful World Cup nations.
@@ -49,10 +51,20 @@ That choice makes the analysis more honest because popularity can mean many thin
 ## Project Files
 
 - `World_Cup_Football_Analysis.ipynb` - main notebook
+- `REPORT.md` - readable report page with chart images
 - `data/world_cup_editions.csv` - World Cup winners and runners-up
 - `data/team_summary.csv` - team-level appearances, titles, finals, and regions
 - `data/highest_paid_players_2025.csv` - Forbes-based player earnings dataset
 - `src/analyze_world_cup.py` - reproducible analysis script
+
+## Visual Report Preview
+
+| Question | Visual |
+|---|---|
+| Who won the most World Cups? | ![World Cup title leaders](assets/charts/world-cup-title-leaders.svg) |
+| Which teams are most visible? | ![World Cup visibility score](assets/charts/world-cup-visibility-score.svg) |
+| Which regions dominate? | ![World Cup titles by region](assets/charts/world-cup-region-titles.svg) |
+| Do paid players match national-team success? | ![Highest-paid players](assets/charts/highest-paid-player-context.svg) |
 
 ## Key Findings
 
